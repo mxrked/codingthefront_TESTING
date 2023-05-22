@@ -4,8 +4,20 @@
  *
  */
 
+import { useRouter } from "next/router";
+
+import { PageHead } from "@/assets/components/global/All/PageHead";
+
 import styles from "../assets/styles/modules/404/404.module.css";
 
 export default function NotFound() {
-  return "";
+  const router = useRouter();
+
+  return (
+    <div id="PAGE" className="page overrides_404 full-second">
+      <PageHead />
+
+      <main id="PAGE_CNT"></main>
+    </div>
+  );
 }
