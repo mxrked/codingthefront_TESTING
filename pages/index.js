@@ -8,8 +8,6 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import { PageHead } from "@/assets/components/global/All/PageHead";
-import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
-import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
@@ -27,11 +25,7 @@ export default function Index() {
     <div id="PAGE" className="page overrides_Index full-second">
       <PageHead />
 
-      <DesktopNav />
-
-      <main id="PAGE_CNT">
-        <IndexTop />
-      </main>
+      <main id="PAGE_CNT"></main>
     </div>
   );
 }

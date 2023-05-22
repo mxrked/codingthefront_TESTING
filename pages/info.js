@@ -8,7 +8,6 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import { PageHead } from "@/assets/components/global/All/PageHead";
-import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
@@ -25,8 +24,6 @@ export default function Info() {
   return (
     <div id="PAGE" className="page overrides_Info full-second">
       <PageHead />
-
-      <DesktopNav />
 
       <main id="PAGE_CNT"></main>
     </div>
