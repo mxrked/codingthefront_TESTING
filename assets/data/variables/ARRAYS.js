@@ -1,5 +1,13 @@
 // This file is used to hold some arrays
 
+import {
+  FADE_IN,
+  FADE_LEFT,
+  FADE_RIGHT,
+  FADE_DOWN,
+  FADE_UP,
+} from "@/assets/animations/FADES";
+
 const SITE_KWS = [
   "codingthefront",
   "coding the front",
@@ -28,4 +36,6 @@ const SITE_KWS = [
   "frontend web developer",
 ];
 
-export { SITE_KWS };
+const FADES = [FADE_IN, FADE_LEFT, FADE_RIGHT, FADE_UP, FADE_DOWN];
+
+export { SITE_KWS, FADES };
