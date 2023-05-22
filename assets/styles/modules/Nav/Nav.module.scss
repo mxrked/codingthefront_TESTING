@@ -18,6 +18,111 @@
 }
 
 // Desktop
+.desktop_nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 600;
+
+  .desktop_nav_inner {
+    max-width: 900px;
+    @include quickCenter("relative");
+
+    .desktop_nav_inner_box {
+      .desktop_nav_inner_row {
+        .desktop_nav_inner_side {
+          height: 100px;
+          display: flex;
+          align-items: center;
+        }
+
+        .desktop_nav_L {
+          justify-content: flex-start;
+
+          .desktop_nav_inner_side_cnt {
+            width: 100%;
+
+            ul {
+              @include displayElement(flex, space-evenly, center);
+              font-family: "FG Regular";
+              padding-top: 13px;
+              max-width: 300px;
+              @include quickCenter("relative");
+
+              li {
+                a {
+                  text-decoration: none;
+                  font-size: $Link;
+                  color: $Concrete;
+                  text-transform: uppercase;
+
+                  &:hover {
+                    color: $Bombay;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .desktop_nav_M {
+          justify-content: center;
+
+          .desktop_nav_inner_side_cnt {
+            width: 100%;
+            @include displayElement(flex, center, center);
+
+            .logo {
+              a {
+                font-family: "FG Bold";
+                text-decoration: none;
+                color: $Concrete;
+
+                &:hover {
+                  color: $Bombay;
+                }
+
+                h1 {
+                  font-size: $Logo;
+                }
+              }
+            }
+          }
+        }
+
+        .desktop_nav_R {
+          justify-content: flex-end;
+
+          .desktop_nav_inner_side_cnt {
+            width: 100%;
+
+            ul {
+              @include displayElement(flex, space-evenly, center);
+              font-family: "FG Regular";
+              padding-top: 13px;
+              max-width: 300px;
+              @include quickCenter("relative");
+
+              li {
+                a {
+                  text-decoration: none;
+                  font-size: $Link;
+                  color: $Concrete;
+                  text-transform: uppercase;
+
+                  &:hover {
+                    color: $Bombay;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {
