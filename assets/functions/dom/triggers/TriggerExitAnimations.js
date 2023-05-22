@@ -34,10 +34,10 @@ function TriggerExitAnimations() {
         });
 
         // Removing background color of navs
-        document.getElementById("desktopNav").style.backgroundColor =
-          "transparent";
-        document.getElementById("mobileNav").style.backgroundColor =
-          "transparent";
+        // document.getElementById("desktopNav").style.backgroundColor =
+        //   "transparent";
+        // document.getElementById("mobileNav").style.backgroundColor =
+        //   "transparent";
 
         // Route to href value
         setTimeout(() => {
@@ -77,10 +77,10 @@ function TriggerExitAnimations() {
         }, 2320);
 
         // Removing background color of navs
-        document.getElementById("desktopNav").style.backgroundColor =
-          "transparent";
-        document.getElementById("mobileNav").style.backgroundColor =
-          "transparent";
+        // document.getElementById("desktopNav").style.backgroundColor =
+        //   "transparent";
+        // document.getElementById("mobileNav").style.backgroundColor =
+        //   "transparent";
 
         // Route to href value
         setTimeout(() => {
