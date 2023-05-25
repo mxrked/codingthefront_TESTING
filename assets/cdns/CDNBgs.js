@@ -6,11 +6,6 @@
 
 import { CDNBGReturn } from "./CDNReturns";
 
-const BG_INDEX_SCRATCHED_RECOLORED = CDNBGReturn(
-  "index",
-  "scratched-recolored",
-  "webp"
-);
-const BG_INDEX_TOP = CDNBGReturn("index", "top", "webp");
+const BG_GRADIENT = CDNBGReturn("all", "bg-gradient", "webp");
 
-export { BG_INDEX_SCRATCHED_RECOLORED, BG_INDEX_TOP };
+export { BG_GRADIENT };

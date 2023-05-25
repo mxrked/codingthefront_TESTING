@@ -6,24 +6,20 @@
 
 import { CDNImgReturn } from "./CDNReturns";
 
-const IMG_LOTTIE_CONTACT_WHEEL = CDNImgReturn(
+const IMG_LOTTIE_COMPUTER = CDNImgReturn("lottie", "computer", "json");
+const IMG_LOTTIE_DRAWING = CDNImgReturn("lottie", "drawing", "json");
+const IMG_LOTTIE_MOBILE_DEV = CDNImgReturn("lottie", "mobile-dev", "json");
+const IMG_LOTTIE_REACHING_OUT = CDNImgReturn("lottie", "reaching-out", "json");
+const IMG_LOTTIE_WEB_DEVELOPER = CDNImgReturn(
   "lottie",
-  "contact-wheel",
-  "json"
-);
-const IMG_LOTTIE_CSS = CDNImgReturn("lottie", "css", "json");
-const IMG_LOTTIE_HTML = CDNImgReturn("lottie", "html", "json");
-const IMG_LOTTIE_REACT_CIRCLE = CDNImgReturn("lottie", "react-circle", "json");
-const IMG_LOTTIE_WEBSITE_BUILDING = CDNImgReturn(
-  "lottie",
-  "website-building",
+  "web-developer",
   "json"
 );
 
 export {
-  IMG_LOTTIE_CONTACT_WHEEL,
-  IMG_LOTTIE_CSS,
-  IMG_LOTTIE_HTML,
-  IMG_LOTTIE_REACT_CIRCLE,
-  IMG_LOTTIE_WEBSITE_BUILDING,
+  IMG_LOTTIE_COMPUTER,
+  IMG_LOTTIE_DRAWING,
+  IMG_LOTTIE_MOBILE_DEV,
+  IMG_LOTTIE_REACHING_OUT,
+  IMG_LOTTIE_WEB_DEVELOPER,
 };
