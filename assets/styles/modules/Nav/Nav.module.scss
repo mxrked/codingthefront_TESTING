@@ -28,6 +28,8 @@
   .desktop_nav_inner {
     max-width: 1400px;
     @include quickCenter("relative");
+    padding-left: 30px;
+    padding-right: 30px;
 
     .desktop_nav_inner_box {
       .desktop_nav_inner_row {
@@ -66,11 +68,11 @@
           justify-content: flex-end;
 
           .desktop_nav_inner_side_cnt {
-            max-width: 500px;
+            max-width: 380px;
             width: 100%;
 
             ul {
-              @include displayElement(flex, space-evenly, center);
+              @include displayElement(flex, space-between, center);
               font-family: "FG Semibold";
 
               li {
@@ -90,6 +92,11 @@
 
 // Responsive
 @media all and (max-width: 1995px) {
+  .desktop_nav {
+    .desktop_nav_inner {
+      max-width: 1250px;
+    }
+  }
 }
 
 @media all and (max-width: 991px) {
@@ -131,7 +138,7 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .desktop_nav {
-    display: block;
+    display: none;
   }
 }
 
