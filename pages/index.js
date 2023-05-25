@@ -11,6 +11,9 @@ import { PageHead } from "@/assets/components/global/All/PageHead";
 
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
+import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
+import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
+
 import styles from "../assets/styles/modules/Index/Index.module.css";
 
 export default function Index() {
@@ -25,7 +28,11 @@ export default function Index() {
     <div id="PAGE" className="page overrides_Index full-second">
       <PageHead />
 
-      <main id="PAGE_CNT"></main>
+      <DesktopNav />
+
+      <main id="PAGE_CNT">
+        <IndexTop />
+      </main>
     </div>
   );
 }

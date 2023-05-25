@@ -107,7 +107,8 @@ section {
 }
 
 body {
-  overflow-y: hidden;
+  overflow: hidden;
+  white-space: nowrap;
   pointer-events: none;
   scrollbar-color: #1e2022 #c9d6df;
   scrollbar-width: thin;

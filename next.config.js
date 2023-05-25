@@ -15,4 +15,9 @@ module.exports = {
   //! CSS and JS with the trailingSlash
   assetPrefix: isProd ? "https://codingthefront.com/" : "",
   trailingSlash: true,
+
+  // This adds the _headers file after npm run build
+  async afterBuild({ utils }) {
+    await fs.copy("_headers", ".next/_headers");
+  },
 };
