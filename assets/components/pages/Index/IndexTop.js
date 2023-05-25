@@ -20,9 +20,9 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 
 import styles from "../../../styles/modules/Index/Index.module.css";
 
-const GradientCircle = (props) => {
-  return <div className={`${styles[props.gradient_circle_class]}`} />;
-};
+// const GradientCircle = (props) => {
+//   return <div className={`${styles[props.gradient_circle_class]}`} />;
+// };
 
 export const IndexTop = () => {
   const router = useRouter();
@@ -57,8 +57,14 @@ export const IndexTop = () => {
                 className={`${styles.index_top_inner_side} ${styles.index_top_L} col-lg-5 col-md-5 col-sm-5 col-xs-5`}
               >
                 <div className={`${styles.index_top_inner_side_cnt}`}>
-                  <h1 className="half-second">Hi, My name is Parker.</h1>
-                  <h2 className="half-second">I am a Web Developer.</h2>
+                  <h1 className="half-second">
+                    Hi, My name is <br />
+                    Parker.
+                  </h1>
+                  <h2 className="half-second">
+                    I am a <br />
+                    Web Developer.
+                  </h2>
 
                   <ul>
                     <li>
@@ -90,14 +96,6 @@ export const IndexTop = () => {
             </div>
           </div>
         </div>
-
-        <GradientCircle gradient_circle_class="left_big" />
-        <GradientCircle gradient_circle_class="left_small_1" />
-        <GradientCircle gradient_circle_class="left_small_2" />
-
-        <GradientCircle gradient_circle_class="right_big" />
-        <GradientCircle gradient_circle_class="right_small_1" />
-        <GradientCircle gradient_circle_class="right_small_2" />
       </motion.div>
     </section>
   );
