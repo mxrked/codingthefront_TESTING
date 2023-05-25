@@ -12,6 +12,7 @@ import { PageHead } from "@/assets/components/global/All/PageHead";
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
+import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 
 import styles from "../assets/styles/modules/Index/Index.module.css";
@@ -29,6 +30,7 @@ export default function Index() {
       <PageHead />
 
       <DesktopNav />
+      <MobileNav />
 
       <main id="PAGE_CNT">
         <IndexTop />

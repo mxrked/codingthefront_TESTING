@@ -12,6 +12,7 @@ import { PageHead } from "@/assets/components/global/All/PageHead";
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
+import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 
 import styles from "../assets/styles/modules/Contact/Contact.module.css";
 
@@ -28,6 +29,7 @@ export default function Contact() {
       <PageHead />
 
       <DesktopNav />
+      <MobileNav />
 
       <main id="PAGE_CNT"></main>
     </div>
