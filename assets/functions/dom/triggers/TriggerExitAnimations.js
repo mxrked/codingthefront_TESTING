@@ -11,10 +11,7 @@ import CloseMobileNav from "../closers/CloseMobileNav";
 function TriggerExitAnimations() {
   document.querySelectorAll("a").forEach((link) => {
     //! Regular Links
-    if (
-      !link.classList.contains("nav-link") &&
-      !link.classList.contains("search-link")
-    ) {
+    if (!link.classList.contains("nav-link")) {
       link.addEventListener("click", (e) => {
         e.preventDefault();
 
@@ -47,10 +44,7 @@ function TriggerExitAnimations() {
     }
 
     //! Mobile Nav Links
-    if (
-      link.classList.contains("nav-link") ||
-      link.classList.contains("search-link")
-    ) {
+    if (link.classList.contains("nav-link")) {
       link.addEventListener("click", (e) => {
         e.preventDefault();
 
@@ -66,14 +60,14 @@ function TriggerExitAnimations() {
           document.body.style.pointerEvents = "none";
         }, 2300);
 
-        // Hiding elements
-        document.querySelector(".page").style.opacity = 0;
-        document.querySelector(".page").style.visibility = "hidden";
-
         setTimeout(() => {
           document.querySelectorAll(".fm-motion").forEach((fm) => {
             fm.style.opacity = 0;
           });
+
+          // Hiding elements
+          document.querySelector(".page").style.opacity = 0;
+          document.querySelector(".page").style.visibility = "hidden";
         }, 2320);
 
         // Removing background color of navs
@@ -96,6 +90,10 @@ function TriggerExitAnimations_NON_LINKS() {
   // Disabling pointer events and scrolling
   document.body.style.overflowY = "hidden";
   document.body.style.pointerEvents = "none";
+
+  // Hiding page
+  document.querySelector(".page").style.opacity = 0;
+  document.querySelector(".page").style.visibility = "hidden";
 
   // Hiding elements
   document.querySelectorAll(".fm-motion").forEach((fm) => {
