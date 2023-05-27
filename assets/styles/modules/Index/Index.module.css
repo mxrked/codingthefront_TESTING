@@ -220,13 +220,13 @@
 }
 @media all and (max-width: 768px) {
   .index_top {
-    height: 1150px;
+    height: 950px;
   }
   .index_top .bg {
-    height: 1150px !important;
+    height: 950px !important;
   }
   .index_top .index_top_inner {
-    padding-top: 70px;
+    padding-top: 150px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0;
