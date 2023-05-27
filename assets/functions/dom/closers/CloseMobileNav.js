@@ -7,9 +7,9 @@
 import RemoveStorageVariable from "../../data/storage/RemoveStorageVariable";
 
 export default function CloseMobileNav() {
-  const DARKEN = document.getElementById("mobileNavMenuDarken");
-  const MAIN = document.getElementById("mobileNavMenuMain");
-  const CNT = document.getElementById("mobileNavMenuMainCnt");
+  const DARKEN = document.getElementById("mobileNavDarken");
+  const MAIN = document.getElementById("mobileNavMain");
+  const CNT = document.getElementById("mobileNavMainCnt");
 
   //   document.body.style.overflowY = "hidden";
   //   document.body.style.pointerEvents = "none";
@@ -43,8 +43,8 @@ export default function CloseMobileNav() {
   CNT.style.visibility = "hidden";
 
   setTimeout(() => {
-    MAIN.style.opacity = 0;
-    MAIN.style.visibility = "hidden";
+    // MAIN.style.opacity = 0;
+    // MAIN.style.visibility = "hidden";
     MAIN.style.transform = "translateX(100%)";
   }, 700);
 
