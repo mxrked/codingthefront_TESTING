@@ -241,7 +241,34 @@
     display: none;
   }
   .mobile_nav {
-    display: flex;
+    display: block;
+    padding-bottom: 15px;
+
+    .mobile_nav_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .logo {
+        .icon {
+          display: none;
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
+
+      button {
+        margin-top: 0;
+        margin-right: 0;
+      }
+    }
   }
   .mobile_nav_menu {
     .mobile_nav_menu_main {
@@ -272,12 +299,32 @@
     display: none;
   }
   .mobile_nav {
-    display: flex;
+    display: block;
     padding-bottom: 15px;
 
     .mobile_nav_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      .logo {
+        .icon {
+          display: none;
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
+
       button {
-        margin-top: 20px;
+        margin-top: 0;
+        margin-right: 0;
       }
     }
   }
