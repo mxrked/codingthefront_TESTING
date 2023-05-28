@@ -57,11 +57,11 @@ export const IndexTop = () => {
                 className={`${styles.index_top_inner_side} ${styles.index_top_L} col-lg-5 col-md-5 col-sm-5 col-xs-5`}
               >
                 <div className={`${styles.index_top_inner_side_cnt}`}>
-                  <h1 className="half-second">
+                  <h1>
                     Hi, My name is <br />
                     Parker.
                   </h1>
-                  <h2 className="half-second">
+                  <h2>
                     I am a <br />
                     Web Developer.
                   </h2>
