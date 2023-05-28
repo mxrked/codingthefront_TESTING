@@ -26,7 +26,7 @@
   z-index: 400;
 
   .desktop_nav_inner {
-    max-width: 1400px;
+    max-width: 1480px;
     @include quickCenter("relative");
     padding-left: 30px;
     padding-right: 30px;
@@ -181,6 +181,11 @@
         @include quickCenter("relative");
         margin-bottom: 40px;
         font-size: 23px;
+
+        &:hover {
+          background-color: $SandyBrown;
+          color: white;
+        }
       }
 
       ul {
@@ -238,6 +243,27 @@
   .mobile_nav {
     display: flex;
   }
+  .mobile_nav_menu {
+    .mobile_nav_menu_main {
+      .mobile_nav_menu_main_cnt {
+        button {
+          width: 40px;
+          height: 40px;
+          font-size: 18px;
+        }
+
+        ul {
+          li {
+            height: 45px;
+
+            a {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Smaller Devices (Phones)
@@ -247,6 +273,34 @@
   }
   .mobile_nav {
     display: flex;
+    padding-bottom: 15px;
+
+    .mobile_nav_inner {
+      button {
+        margin-top: 20px;
+      }
+    }
+  }
+  .mobile_nav_menu {
+    .mobile_nav_menu_main {
+      .mobile_nav_menu_main_cnt {
+        button {
+          width: 36px;
+          height: 36px;
+          font-size: 16px;
+        }
+
+        ul {
+          li {
+            height: 45px;
+
+            a {
+              font-size: 21px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -256,7 +310,45 @@
     display: none;
   }
   .mobile_nav {
-    display: flex;
+    display: block;
+    max-width: 100%;
+
+    .mobile_nav_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+
+      button {
+        margin-top: 0;
+        margin-right: 0;
+      }
+    }
+  }
+  .mobile_nav_menu {
+    .mobile_nav_menu_main {
+      .mobile_nav_menu_main_cnt {
+        button {
+          width: 36px;
+          height: 36px;
+          font-size: 16px;
+        }
+
+        ul {
+          li {
+            height: 35px;
+
+            a {
+              font-size: 21px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -266,7 +358,47 @@
     display: none;
   }
   .mobile_nav {
-    display: flex;
+    display: block;
+    max-width: 100%;
+
+    .mobile_nav_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      padding-top: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+
+      button {
+        margin-top: 0;
+        margin-right: 0;
+      }
+    }
+  }
+  .mobile_nav_menu {
+    .mobile_nav_menu_main {
+      max-width: 500px;
+
+      .mobile_nav_menu_main_cnt {
+        button {
+          width: 41px;
+          height: 41px;
+          font-size: 21px;
+        }
+
+        ul {
+          li {
+            height: 45px;
+
+            a {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -275,7 +407,24 @@
     display: none;
   }
   .mobile_nav {
-    display: flex;
+    display: block;
+    max-width: 100%;
+
+    .mobile_nav_inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      padding-top: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+
+      button {
+        margin-top: 0;
+        margin-right: 0;
+      }
+    }
   }
 }
 
