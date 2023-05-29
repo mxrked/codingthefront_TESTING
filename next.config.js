@@ -17,7 +17,7 @@ module.exports = {
   assetPrefix:
     isProd && process.env.HOSTNAME === "codingthefront.com"
       ? "https://codingthefront.com/"
-      : "https://glittering-cupcake-b97603.netlify.app/",
+      : "",
   trailingSlash: true,
 
   // This adds the _headers file after npm run build
