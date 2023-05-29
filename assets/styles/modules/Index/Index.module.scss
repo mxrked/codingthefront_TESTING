@@ -1532,8 +1532,8 @@
 
     .index_info_inner {
       padding-top: 70px;
-      padding-left: 50px;
-      padding-right: 0px;
+      padding-left: 60px;
+      padding-right: 60px;
 
       .index_info_inner_box {
         .index_info_inner_row {
@@ -1580,6 +1580,8 @@
 
           .index_info_R {
             max-width: 50%;
+            justify-content: flex-end;
+
             .index_info_inner_side_cnt {
               .lottie {
                 right: 0;
