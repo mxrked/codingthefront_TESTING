@@ -109,7 +109,7 @@
 
 .index_info {
   position: relative;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
   overflow: hidden;
 }
 .index_info .l_big {
@@ -284,6 +284,140 @@
   right: -120px;
 }
 
+.index_projects {
+  position: relative;
+  margin-bottom: 150px;
+  overflow: hidden;
+}
+.index_projects .index_projects_inner {
+  padding-top: 50px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_inner_side {
+  display: flex;
+  align-items: center;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+  justify-content: flex-start;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+  max-width: 600px;
+  white-space: pre-wrap;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+  font-family: "FG Bold";
+  font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
+  display: block;
+  margin-bottom: 20px;
+  cursor: default;
+  line-height: 100px;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+  font-family: "FG Regular";
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  display: block;
+  margin-bottom: 30px;
+  cursor: default;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  font-family: "FG Semibold";
+  text-decoration: none;
+  color: white;
+  max-width: 160px;
+  background: rgb(224, 61, 61);
+  background: linear-gradient(146deg, rgb(247, 97, 97) 0%, rgb(241, 86, 18) 100%);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a:hover {
+  background-color: rgb(224, 61, 61);
+  background: rgb(224, 61, 61);
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R {
+  justify-content: flex-end;
+}
+.index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 690px;
+  transform: rotate();
+  position: relative;
+  right: -120px;
+}
+
+.index_contact {
+  position: relative;
+  margin-bottom: 300px;
+  overflow: hidden;
+}
+.index_contact .index_contact_inner {
+  padding-top: 50px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_inner_side {
+  display: flex;
+  align-items: center;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+  justify-content: flex-start;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+  max-width: 600px;
+  white-space: pre-wrap;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+  font-family: "FG Bold";
+  font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
+  display: block;
+  margin-bottom: 20px;
+  cursor: default;
+  line-height: 100px;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+  font-family: "FG Regular";
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  display: block;
+  margin-bottom: 30px;
+  cursor: default;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  font-family: "FG Semibold";
+  text-decoration: none;
+  color: white;
+  max-width: 160px;
+  background: rgb(224, 61, 61);
+  background: linear-gradient(146deg, rgb(247, 97, 97) 0%, rgb(241, 86, 18) 100%);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a:hover {
+  background-color: rgb(224, 61, 61);
+  background: rgb(224, 61, 61);
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R {
+  justify-content: flex-end;
+}
+.index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 690px;
+  transform: rotate();
+  position: relative;
+  right: -120px;
+}
+
 @media all and (max-width: 1995px) {
   .index_top {
     height: 780px;
@@ -323,7 +457,7 @@
     right: -50px;
   }
   .index_info {
-    margin-bottom: 200px;
+    margin-bottom: 30px;
   }
   .index_info .l_big {
     width: 310px;
@@ -361,6 +495,32 @@
     padding-right: 160px;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_L .index_info_inner_side_cnt h1 {
+    font-size: 65px;
+    max-width: 100%;
+    white-space: pre-wrap;
+  }
+  .index_projects {
+    margin-bottom: 30px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 160px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 65px;
+    max-width: 100%;
+    white-space: pre-wrap;
+  }
+  .index_contact {
+    margin-bottom: 200px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 160px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
     font-size: 65px;
     max-width: 100%;
     white-space: pre-wrap;
@@ -438,7 +598,7 @@
     margin-right: auto;
   }
   .index_info {
-    margin-bottom: 120px;
+    margin-bottom: 50px;
   }
   .index_info .l_small_1 {
     width: 50px;
@@ -480,7 +640,7 @@
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_L .index_info_inner_side_cnt h1 {
     font-size: 50px;
-    max-width: 50%;
+    max-width: 100%;
     white-space: pre-wrap;
     margin-left: auto;
     margin-right: auto;
@@ -496,8 +656,99 @@
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_L .index_info_inner_side_cnt a {
     margin-left: auto;
     margin-right: auto;
+    height: 45px;
+    max-width: 130px;
+    font-size: 20px;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 320px;
+  }
+  .index_projects {
+    margin-bottom: 50px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 50px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    max-width: 80%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    max-width: 130px;
+    font-size: 20px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 320px;
+  }
+  .index_contact {
+    margin-bottom: 120px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 50px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    max-width: 80%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    max-width: 130px;
+    font-size: 20px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     right: 0;
     max-width: 320px;
   }
@@ -638,6 +889,90 @@
     right: 0;
     max-width: 320px;
   }
+  .index_projects {
+    margin-bottom: 70px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 30px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 42px;
+    max-width: 50%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 45px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    max-width: 80%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 320px;
+  }
+  .index_contact {
+    margin-bottom: 70px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 30px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 42px;
+    max-width: 50%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 45px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    max-width: 80%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 320px;
+  }
 }
 @media all and (max-width: 419px) {
   .index_top {
@@ -761,6 +1096,90 @@
     font-size: 17px;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 185px;
+  }
+  .index_projects {
+    margin-bottom: 70px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 32px;
+    max-width: 50%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    max-width: 80%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 110px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 185px;
+  }
+  .index_contact {
+    margin-bottom: 70px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 32px;
+    max-width: 50%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    max-width: 80%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 110px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     right: 0;
     max-width: 185px;
   }
@@ -908,6 +1327,112 @@
     right: 0;
     max-width: 240px;
   }
+  .index_projects {
+    margin-bottom: 70px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+    max-width: 50%;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 32px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 0;
+    line-height: 35px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    max-width: 90%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 0;
+    font-size: 16px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 0;
+    max-width: 115px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R {
+    max-width: 50%;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 240px;
+  }
+  .index_contact {
+    margin-bottom: 70px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+    max-width: 50%;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 32px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 0;
+    line-height: 35px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    max-width: 90%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 0;
+    font-size: 16px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 0;
+    max-width: 115px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R {
+    max-width: 50%;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 240px;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .index_top {
@@ -1044,6 +1569,58 @@
     max-width: 120px;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
+    max-width: 280px;
+  }
+  .index_projects {
+    margin-bottom: 120px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+    padding-bottom: 70px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 45px;
+    max-width: 70%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    height: 40px;
+    font-size: 17px;
+    max-width: 120px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    max-width: 280px;
+  }
+  .index_contact {
+    margin-bottom: 120px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+    padding-bottom: 70px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 45px;
+    max-width: 70%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    height: 40px;
+    font-size: 17px;
+    max-width: 120px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     max-width: 280px;
   }
 }
@@ -1190,6 +1767,114 @@
     right: 0;
     max-width: 240px;
   }
+  .index_projects {
+    margin-bottom: 70px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+    max-width: 50%;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 37px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    line-height: 45px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    max-width: 115px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R {
+    max-width: 50%;
+    justify-content: flex-end;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 240px;
+  }
+  .index_contact {
+    margin-bottom: 70px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_inner_side {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+    max-width: 50%;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 37px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    line-height: 45px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    max-width: 115px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R {
+    max-width: 50%;
+    justify-content: flex-end;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 240px;
+  }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .index_top {
@@ -1273,7 +1958,7 @@
     margin-right: auto;
   }
   .index_info {
-    margin-bottom: 300px;
+    margin-bottom: 170px;
   }
   .index_info .l_big {
     width: 310px;
@@ -1344,6 +2029,96 @@
     justify-content: center;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 340px;
+  }
+  .index_projects {
+    margin-bottom: 170px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 52px;
+    max-width: 70%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    font-size: 19px;
+    max-width: 135px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 340px;
+  }
+  .index_contact {
+    margin-bottom: 300px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 52px;
+    max-width: 70%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    font-size: 19px;
+    max-width: 135px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     right: 0;
     max-width: 340px;
   }
@@ -1430,7 +2205,7 @@
     margin-right: auto;
   }
   .index_info {
-    margin-bottom: 150px;
+    margin-bottom: 30px;
   }
   .index_info .l_big {
     width: 310px;
@@ -1509,6 +2284,102 @@
     justify-content: flex-end;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 340px;
+  }
+  .index_projects {
+    margin-bottom: 30px;
+  }
+  .index_projects .index_projects_inner {
+    padding-top: 85px;
+    padding-left: 70px;
+    padding-right: 40px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+    max-width: 50%;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: left;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 52px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 20px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    height: 40px;
+    font-size: 17px;
+    max-width: 115px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R {
+    max-width: 50%;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 340px;
+  }
+  .index_contact {
+    margin-bottom: 150px;
+  }
+  .index_contact .index_contact_inner {
+    padding-top: 85px;
+    padding-left: 70px;
+    padding-right: 40px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+    max-width: 50%;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: left;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 52px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 20px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    height: 40px;
+    font-size: 17px;
+    max-width: 115px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R {
+    max-width: 50%;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     right: 0;
     max-width: 340px;
   }
@@ -1595,7 +2466,7 @@
     margin-right: auto;
   }
   .index_info {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
   .index_info .l_big {
     width: 310px;
@@ -1675,6 +2546,104 @@
     justify-content: flex-end;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 370px;
+  }
+  .index_projects {
+    margin-bottom: 50px;
+  }
+  .index_projects .index_projects_inner {
+    max-width: 1100px;
+    padding-top: 115px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L {
+    max-width: 50%;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt {
+    text-align: left;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt h1 {
+    font-size: 63px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 20px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    height: 50px;
+    font-size: 19px;
+    max-width: 135px;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R {
+    max-width: 50%;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
+    right: 0;
+    max-width: 370px;
+  }
+  .index_contact {
+    margin-bottom: 150px;
+  }
+  .index_contact .index_contact_inner {
+    max-width: 1100px;
+    padding-top: 115px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L {
+    max-width: 50%;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt {
+    text-align: left;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt h1 {
+    font-size: 63px;
+    max-width: 100%;
+    white-space: pre-wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 20px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    height: 50px;
+    font-size: 19px;
+    max-width: 135px;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R {
+    max-width: 50%;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     right: 0;
     max-width: 370px;
   }
