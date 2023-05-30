@@ -14,6 +14,10 @@ import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerEx
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
+
+import { InfoTop } from "@/assets/components/pages/Info/InfoTop";
+import { InfoMain } from "@/assets/components/pages/Info/InfoMain";
+
 import { Footer } from "@/assets/components/global/Footer/Footer";
 
 import styles from "../assets/styles/modules/Info/Info.module.css";
@@ -35,6 +39,8 @@ export default function Info() {
       <MobileNavMenu />
 
       <main id="PAGE_CNT">
+        <InfoTop />
+        <InfoMain />
         <Footer />
       </main>
     </div>
