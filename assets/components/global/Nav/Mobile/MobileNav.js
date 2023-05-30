@@ -12,6 +12,7 @@ import { useInView } from "react-intersection-observer";
 
 import { FaCode } from "react-icons/fa";
 
+import { BG_GRADIENT } from "@/assets/cdns/CDNBgs";
 import { FADE_IN } from "@/assets/animations/FADES";
 
 import DeclareStorageVariable from "@/assets/functions/data/storage/DeclareStorageVariable";
@@ -29,6 +30,18 @@ export const MobileNav = () => {
     TriggerInViewMotion(CONTROLS, INVIEW);
   }, [CONTROLS, INVIEW]);
 
+  //! Adding background gradient to certain pages
+  useEffect(() => {
+    if (
+      router.pathname == "/info" ||
+      router.pathname == "/projects" ||
+      router.pathname == "/contact"
+    ) {
+      document.getElementById("mobileNavInner").style.backgroundImage =
+        "url(" + BG_GRADIENT + ")";
+    }
+  }, [router]);
+
   return (
     <nav id="mobileNav" className={`${styles.mobile_nav} mobile-nav`}>
       <motion.div
@@ -38,52 +51,54 @@ export const MobileNav = () => {
         animate={CONTROLS}
         variants={FADE_IN}
       >
-        <div className={`${styles.mobile_nav_inner}`}>
-          <div className={`${styles.logo}`}>
-            <a href="/" className="index-link half-second">
-              <FaCode className={`${styles.icon}`} />
+        <div className={`${styles.mobile_nav_inner}`} id="mobileNavInner">
+          <div className={`${styles.mobile_nav_inner_cnt}`}>
+            <div className={`${styles.logo}`}>
+              <a href="/" className="index-link half-second">
+                <FaCode className={`${styles.icon}`} />
 
-              <span>codingthefront</span>
-            </a>
+                <span>codingthefront</span>
+              </a>
+            </div>
+
+            <button
+              id="mobileNavToggler"
+              onClick={() => {
+                const DARKEN = document.getElementById("mobileNavDarken");
+                const MAIN = document.getElementById("mobileNavMain");
+                const CNT = document.getElementById("mobileNavMainCnt");
+
+                DeclareStorageVariable("session", "Mobile Nav Opened", true);
+
+                document.body.style.pointerEvents = "none";
+                document.body.style.overflowY = "hidden";
+
+                setTimeout(() => {
+                  DARKEN.style.opacity = 1;
+                  DARKEN.style.visibility = "visible";
+                }, 500);
+
+                setTimeout(() => {
+                  MAIN.style.transform = "translateX(0)";
+                }, 850);
+
+                setTimeout(() => {
+                  CNT.style.opacity = 1;
+                  CNT.style.visibility = "visible";
+                }, 1600);
+
+                setTimeout(() => {
+                  DARKEN.style.pointerEvents = "auto";
+                  MAIN.style.pointerEvents = "auto";
+                  MAIN.style.overflowY = "auto";
+                }, 2000);
+              }}
+            >
+              <span className="half-second" />
+              <span className="half-second" />
+              <span className="half-second" />
+            </button>
           </div>
-
-          <button
-            id="mobileNavToggler"
-            onClick={() => {
-              const DARKEN = document.getElementById("mobileNavDarken");
-              const MAIN = document.getElementById("mobileNavMain");
-              const CNT = document.getElementById("mobileNavMainCnt");
-
-              DeclareStorageVariable("session", "Mobile Nav Opened", true);
-
-              document.body.style.pointerEvents = "none";
-              document.body.style.overflowY = "hidden";
-
-              setTimeout(() => {
-                DARKEN.style.opacity = 1;
-                DARKEN.style.visibility = "visible";
-              }, 500);
-
-              setTimeout(() => {
-                MAIN.style.transform = "translateX(0)";
-              }, 850);
-
-              setTimeout(() => {
-                CNT.style.opacity = 1;
-                CNT.style.visibility = "visible";
-              }, 1600);
-
-              setTimeout(() => {
-                DARKEN.style.pointerEvents = "auto";
-                MAIN.style.pointerEvents = "auto";
-                MAIN.style.overflowY = "auto";
-              }, 2000);
-            }}
-          >
-            <span className="half-second" />
-            <span className="half-second" />
-            <span className="half-second" />
-          </button>
         </div>
       </motion.div>
     </nav>

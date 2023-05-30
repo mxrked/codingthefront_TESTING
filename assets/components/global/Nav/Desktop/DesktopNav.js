@@ -12,6 +12,7 @@ import { useInView } from "react-intersection-observer";
 
 import { FaCode } from "react-icons/fa";
 
+import { BG_GRADIENT } from "@/assets/cdns/CDNBgs";
 import { FADE_IN } from "@/assets/animations/FADES";
 
 import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
@@ -28,6 +29,18 @@ export const DesktopNav = () => {
     TriggerInViewMotion(CONTROLS, INVIEW);
   }, [CONTROLS, INVIEW]);
 
+  //! Adding background gradient to certain pages
+  useEffect(() => {
+    if (
+      router.pathname == "/info" ||
+      router.pathname == "/projects" ||
+      router.pathname == "/contact"
+    ) {
+      document.getElementById("desktopNavInner").style.backgroundImage =
+        "url(" + BG_GRADIENT + ")";
+    }
+  }, [router]);
+
   return (
     <nav id="desktopNav" className={`${styles.desktop_nav} desktop-nav`}>
       <motion.div
@@ -37,7 +50,7 @@ export const DesktopNav = () => {
         animate={CONTROLS}
         variants={FADE_IN}
       >
-        <div className={`${styles.desktop_nav_inner}`}>
+        <div className={`${styles.desktop_nav_inner}`} id="desktopNavInner">
           <div className={`${styles.desktop_nav_inner_box} container-fluid`}>
             <div className={`${styles.desktop_nav_inner_row} row`}>
               <div
