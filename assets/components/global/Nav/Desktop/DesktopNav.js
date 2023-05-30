@@ -29,13 +29,14 @@ export const DesktopNav = () => {
     TriggerInViewMotion(CONTROLS, INVIEW);
   }, [CONTROLS, INVIEW]);
 
-  //! Adding background gradient to certain pages
+  //! Adding background gradient and setting position to relative on certain pages
   useEffect(() => {
     if (
       router.pathname == "/info" ||
       router.pathname == "/projects" ||
       router.pathname == "/contact"
     ) {
+      document.getElementById("desktopNav").style.position = "relative";
       document.getElementById("desktopNavInner").style.backgroundImage =
         "url(" + BG_GRADIENT + ")";
     }
