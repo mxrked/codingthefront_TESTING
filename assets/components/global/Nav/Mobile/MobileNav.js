@@ -37,8 +37,8 @@ export const MobileNav = () => {
       router.pathname == "/projects" ||
       router.pathname == "/contact"
     ) {
-      document.getElementById("desktopNav").style.position = "relative";
-      document.getElementById("desktopNavInner").style.backgroundImage =
+      document.getElementById("mobileNav").style.position = "relative";
+      document.getElementById("mobileNavInner").style.backgroundImage =
         "url(" + BG_GRADIENT + ")";
     }
   }, [router]);
