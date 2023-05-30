@@ -67,7 +67,7 @@ export const IndexProjects = () => {
                     autoplay
                     loop
                     src={IMG_LOTTIE_MOBILE_DEV}
-                    className={`${styles.lottie} half-second`}
+                    className={`${styles.lottie}`}
                     style={{ height: "300px", width: "300px" }}
                   ></Player>
                 </div>

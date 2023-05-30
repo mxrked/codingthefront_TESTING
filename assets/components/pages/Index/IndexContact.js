@@ -67,7 +67,7 @@ export const IndexContact = () => {
                     autoplay
                     loop
                     src={IMG_LOTTIE_REACHING_OUT}
-                    className={`${styles.lottie} half-second`}
+                    className={`${styles.lottie}`}
                     style={{ height: "300px", width: "300px" }}
                   ></Player>
                 </div>

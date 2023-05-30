@@ -88,7 +88,7 @@ export const IndexTop = () => {
                     autoplay
                     loop
                     src={IMG_LOTTIE_DRAWING}
-                    className={`${styles.lottie} half-second`}
+                    className={`${styles.lottie}`}
                     style={{ height: "300px", width: "300px" }}
                   ></Player>
                 </div>
