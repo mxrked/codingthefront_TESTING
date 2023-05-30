@@ -26,12 +26,14 @@
   z-index: 400;
 
   .desktop_nav_inner {
-    max-width: 1480px;
-    @include quickCenter("relative");
+    @include bGSU(cover, center);
     padding-left: 30px;
     padding-right: 30px;
 
     .desktop_nav_inner_box {
+      @include quickCenter("relative");
+      max-width: 1480px;
+
       .desktop_nav_inner_row {
         .desktop_nav_inner_side {
           height: 100px;
@@ -99,6 +101,20 @@
   @include displayElement(none, center, center);
 
   .mobile_nav_inner {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    @include displayElement(flex, center, center);
+
+    .mobile_nav_inner_cnt {
+      @include displayElement(flex, space-between, center);
+      width: 100%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
     .logo {
       a {
         @include displayElement(flex, flex-start, center);
@@ -125,7 +141,8 @@
       background-color: none;
       display: block;
       @include quickCenter("relative");
-      margin-top: 20px;
+      margin-right: 0;
+      margin-top: 0px;
 
       span {
         height: 4px;
@@ -214,7 +231,6 @@
 @media all and (max-width: 1995px) {
   .desktop_nav {
     .desktop_nav_inner {
-      max-width: 1250px;
     }
   }
 }
@@ -250,9 +266,14 @@
       align-items: center;
       max-width: 100%;
       width: 100%;
-      padding-top: 20px;
+      padding-top: 0px;
       padding-left: 10px;
       padding-right: 10px;
+
+      .mobile_nav_inner_cnt {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
 
       .logo {
         .icon {
