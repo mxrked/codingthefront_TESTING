@@ -26,7 +26,7 @@
     max-width: 1450px;
     @include quickCenter("relative");
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 20px;
 
     .info_top_inner_box {
       .info_top_inner_row {
@@ -108,6 +108,114 @@
   }
 }
 .info_main {
+  margin-bottom: 100px;
+
+  .info_main_inner {
+    max-width: 1450px;
+    @include quickCenter("relative");
+    width: 100%;
+    padding-bottom: 350px;
+
+    .info_main_inner_box {
+      .info_main_inner_row {
+        .info_main_inner_side {
+          height: 550px;
+          display: flex;
+          align-items: flex-start;
+          padding: 0;
+        }
+
+        .info_main_L {
+          justify-content: flex-start;
+
+          .info_main_inner_side_cnt {
+            max-width: 700px;
+
+            h1 {
+              max-width: 600px;
+              font-family: "FG Bold";
+              font-size: $MajorHeading;
+              display: block;
+              margin-bottom: 20px;
+              // filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.224));
+              cursor: default;
+              line-height: 100px;
+              white-space: pre-wrap;
+            }
+
+            p {
+              font-family: "FG Regular";
+              font-size: $Text;
+              display: block;
+              margin-bottom: 30px;
+              max-width: 550px;
+              white-space: pre-wrap;
+              // filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.224));
+              cursor: default;
+            }
+          }
+        }
+
+        .info_main_R {
+          justify-content: flex-end;
+
+          .info_main_inner_side_cnt {
+            h2 {
+              max-width: 600px;
+              font-family: "FG Bold";
+              font-size: $SubHeading;
+              display: block;
+              margin-bottom: 20px;
+              // filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.224));
+              cursor: default;
+              line-height: 100px;
+              white-space: pre-wrap;
+              text-align: center;
+            }
+
+            .skills_holder {
+              max-width: 450px;
+
+              ul {
+                @include displayElement(flex, space-evenly, center);
+                flex-wrap: wrap;
+
+                li {
+                  font-size: 19px;
+                  font-family: "FG Semibold";
+                  text-decoration: none;
+                  color: white;
+                  background: rgb(224, 61, 61);
+                  background: linear-gradient(
+                    146deg,
+                    rgba(247, 97, 97, 1) 0%,
+                    rgba(241, 86, 18, 1) 100%
+                  );
+                  height: 45px;
+                  @include displayElement(flex, center, center);
+                  border-radius: 10px;
+                  margin: 10px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                  cursor: default;
+
+                  .skill_name {
+                    margin-right: 10px;
+                  }
+
+                  .icon_holder {
+                    font-size: 23px;
+                    position: relative;
+                    top: -3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Responsive
@@ -121,7 +229,7 @@
       .info_top_inner_box {
         .info_top_inner_row {
           .info_top_inner_side {
-            height: 800px;
+            height: 700px;
           }
 
           .info_top_L {
@@ -137,7 +245,57 @@
           .info_top_R {
             .info_top_inner_side_cnt {
               .lottie {
-                right: -60px;
+                right: -30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .info_main {
+    padding-top: 60px;
+    margin-bottom: 20px;
+
+    .info_main_inner {
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 0px;
+
+      .info_main_inner_box {
+        .info_main_inner_row {
+          .info_main_inner_side {
+            height: 500px;
+            align-items: center;
+          }
+
+          .info_main_L {
+            .info_main_inner_side_cnt {
+              h1 {
+                font-size: 65px;
+                max-width: 100%;
+                white-space: pre-wrap;
+                line-height: 60px;
+              }
+            }
+          }
+
+          .info_main_R {
+            .info_main_inner_side_cnt {
+              h2 {
+                font-size: 40px;
+                text-align: right;
+              }
+
+              .skills_holder {
+                ul {
+                  justify-content: flex-end;
+
+                  li {
+                    font-size: 17px;
+                    margin: 7px;
+                  }
+                }
               }
             }
           }
@@ -198,6 +356,62 @@
               .lottie {
                 right: 0px;
                 max-width: 320px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .info_main {
+    padding-top: 150px;
+
+    .info_main_inner {
+      .info_main_inner_box {
+        .info_main_inner_row {
+          .info_main_inner_side {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+          }
+
+          .info_main_L {
+            .info_main_inner_side_cnt {
+              text-align: center;
+
+              h1 {
+                font-size: 65px;
+                max-width: 100%;
+                white-space: pre-wrap;
+              }
+
+              p {
+                max-width: 90%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                font-size: 21px;
+              }
+            }
+          }
+
+          .info_main_R {
+            .info_main_inner_side_cnt {
+              h2 {
+                text-align: center;
+              }
+
+              .skills_holder {
+                max-width: 450px;
+
+                ul {
+                  justify-content: space-evenly;
+
+                  li {
+                    height: 40px;
+                    font-size: 15px;
+                  }
+                }
               }
             }
           }
@@ -271,6 +485,75 @@
       }
     }
   }
+  .info_main {
+    padding-top: 80px;
+
+    .info_main_inner {
+      .info_main_inner_box {
+        .info_main_inner_row {
+          .info_main_inner_side {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+          }
+
+          .info_main_L {
+            .info_main_inner_side_cnt {
+              text-align: center;
+
+              h1 {
+                font-size: 42px;
+                max-width: 50%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                line-height: 45px;
+              }
+
+              p {
+                max-width: 80%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                font-size: 18px;
+              }
+            }
+          }
+
+          .info_main_R {
+            .info_main_inner_side_cnt {
+              padding-top: 40px;
+
+              h2 {
+                text-align: center;
+                font-size: 33px;
+                line-height: 40px;
+              }
+
+              .skills_holder {
+                max-width: 350px;
+
+                ul {
+                  justify-content: space-evenly;
+
+                  li {
+                    font-family: "FG Regular";
+                    height: 35px;
+                    font-size: 13px;
+                    margin: 5px;
+
+                    .icon_holder {
+                      font-size: 16px;
+                      top: -2px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Smaller Devices (Phones)
@@ -327,6 +610,79 @@
               .lottie {
                 right: 0px;
                 max-width: 185px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .info_main {
+    padding-top: 80px;
+
+    .info_main_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 15px;
+
+      .info_main_inner_box {
+        .info_main_inner_row {
+          .info_main_inner_side {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+          }
+
+          .info_main_L {
+            .info_main_inner_side_cnt {
+              text-align: center;
+
+              h1 {
+                font-size: 32px;
+                max-width: 50%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                line-height: 35px;
+              }
+
+              p {
+                max-width: 80%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                font-size: 16px;
+              }
+            }
+          }
+
+          .info_main_R {
+            .info_main_inner_side_cnt {
+              padding-top: 25px;
+
+              h2 {
+                text-align: center;
+                font-size: 26px;
+                line-height: 40px;
+              }
+
+              .skills_holder {
+                max-width: 250px;
+
+                ul {
+                  justify-content: space-evenly;
+
+                  li {
+                    font-family: "FG Regular";
+                    height: 35px;
+                    font-size: 13px;
+                    margin: 3px;
+
+                    .icon_holder {
+                      font-size: 16px;
+                      top: -2px;
+                    }
+                  }
+                }
               }
             }
           }
@@ -391,6 +747,80 @@
               .lottie {
                 right: 0px;
                 max-width: 235px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .info_main {
+    padding-top: 50px;
+
+    .info_main_inner {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 15px;
+
+      .info_main_inner_box {
+        .info_main_inner_row {
+          .info_main_inner_side {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+          }
+
+          .info_main_L {
+            .info_main_inner_side_cnt {
+              text-align: center;
+
+              h1 {
+                font-size: 32px;
+                max-width: 100%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                margin-right: 0;
+                line-height: 45px;
+              }
+
+              p {
+                max-width: 75%;
+                white-space: pre-wrap;
+                @include quickCenter("relative");
+                font-size: 16px;
+              }
+            }
+          }
+
+          .info_main_R {
+            .info_main_inner_side_cnt {
+              padding-top: 25px;
+
+              h2 {
+                text-align: center;
+                font-size: 30px;
+                line-height: 40px;
+              }
+
+              .skills_holder {
+                max-width: 370px;
+
+                ul {
+                  justify-content: space-evenly;
+
+                  li {
+                    font-family: "FG Regular";
+                    height: 40px;
+                    font-size: 13px;
+                    margin: 3px;
+
+                    .icon_holder {
+                      font-size: 16px;
+                      top: -2px;
+                    }
+                  }
+                }
               }
             }
           }
