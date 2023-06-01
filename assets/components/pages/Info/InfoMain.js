@@ -99,7 +99,7 @@ export const InfoMain = () => {
                 className={`${styles.info_main_inner_side} ${styles.info_main_L} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
               >
                 <div className={`${styles.info_main_inner_side_cnt}`}>
-                  <h1>Parkers Journey.</h1>
+                  <h1>The Journey.</h1>
 
                   <p>
                     He started his journey due to inspiration by his grandpa who
