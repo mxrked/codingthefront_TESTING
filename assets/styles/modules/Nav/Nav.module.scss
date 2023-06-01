@@ -229,10 +229,6 @@
 
 // Responsive
 @media all and (max-width: 1995px) {
-  .desktop_nav {
-    .desktop_nav_inner {
-    }
-  }
 }
 
 @media all and (max-width: 991px) {
@@ -494,7 +490,7 @@
       align-items: center;
       max-width: 100%;
       width: 100%;
-      padding-top: 20px;
+      padding-top: 0px;
       padding-left: 60px;
       padding-right: 60px;
 
