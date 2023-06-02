@@ -203,6 +203,9 @@
   color: white;
   margin-bottom: 30px;
 }
+.footer_holder .footer .footer_inner .footer_inner_box .footer_inner_row .footer_R .footer_inner_side_cnt .contact li {
+  cursor: default;
+}
 .footer_holder .footer .footer_inner .footer_inner_box .footer_inner_row .footer_R .footer_inner_side_cnt .socials {
   display: flex;
   justify-content: space-between;
@@ -284,7 +287,7 @@
 }
 @media all and (max-width: 768px) {
   .footer_holder {
-    margin-top: 140px;
+    margin-top: 80px;
   }
   .footer_holder .l_big,
   .footer_holder .r_big,

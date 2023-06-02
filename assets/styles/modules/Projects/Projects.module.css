@@ -93,6 +93,7 @@
   margin-left: auto;
   margin-right: auto;
   border: 2px solid rgba(128, 128, 128, 0.071);
+  overflow: hidden;
 }
 .projects_main .projects_main_inner .projects_main_inner_box .projects_main_inner_row .project .project_inner .project_img img {
   max-width: 90%;
@@ -345,7 +346,7 @@
     max-width: 290px;
   }
   .projects_main {
-    padding-top: 150px;
+    padding-top: 70px;
     padding-bottom: 0px;
   }
   .projects_main .projects_main_inner {

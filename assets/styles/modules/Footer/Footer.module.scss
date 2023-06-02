@@ -18,7 +18,6 @@
 }
 
 // Desktop
-
 .footer_holder {
   position: relative;
 
@@ -220,6 +219,10 @@
                 font-size: $Link;
                 color: white;
                 margin-bottom: 30px;
+
+                li {
+                  cursor: default;
+                }
               }
 
               .socials {
@@ -335,7 +338,7 @@
 // Desktop Window (Smallest)
 @media all and (max-width: 768px) {
   .footer_holder {
-    margin-top: 140px;
+    margin-top: 80px;
 
     .l_big,
     .r_big,
