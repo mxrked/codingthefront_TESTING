@@ -373,7 +373,7 @@
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .footer_holder {
-    margin-top: 70px;
+    margin-top: 20px;
   }
   .footer_holder .l_big,
   .footer_holder .r_big,
@@ -444,7 +444,7 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .footer_holder {
-    margin-top: 120px;
+    margin-top: 50px;
   }
   .footer_holder .l_big,
   .footer_holder .r_big,
@@ -477,7 +477,7 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .footer_holder {
-    margin-top: 70px;
+    margin-top: 20px;
   }
   .footer_holder .l_big,
   .footer_holder .r_big,
