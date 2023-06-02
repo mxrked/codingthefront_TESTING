@@ -15,7 +15,7 @@ import {
 import { PYQT, PYTHON, SQL, SASS, NEXTJS, REACT } from "../../cdns/CDNIcons";
 
 const RTSYVISUALS_OBJ = new Project(
-  01,
+  "P_1",
   "project_1",
   "RTSYVisuals",
   "A photography-based website.",
@@ -27,7 +27,7 @@ const RTSYVISUALS_OBJ = new Project(
   "https://rtsyvisuals.com/"
 );
 const ANIMEX_OBJ = new Project(
-  02,
+  "P_2",
   "project_2",
   "Animex",
   "An anime-based streaming site.",
@@ -39,7 +39,7 @@ const ANIMEX_OBJ = new Project(
   "https://sparkling-dragon-f3af91.netlify.app/"
 );
 const ONLYJOJO_OBJ = new Project(
-  03,
+  "P_3",
   "project_3",
   "OnlyJojo",
   "A JJBA-based ecommerce site.",
@@ -51,7 +51,7 @@ const ONLYJOJO_OBJ = new Project(
   "https://startling-syrniki-d0dc90.netlify.app/"
 );
 const SHARPQUILLS_OBJ = new Project(
-  04,
+  "P_4",
   "project_4",
   "SharpQuills",
   "A hedgehog-based informational site.",
@@ -63,7 +63,7 @@ const SHARPQUILLS_OBJ = new Project(
   "https://astounding-gaufre-f9428d.netlify.app/"
 );
 const AFRESHPLACE_OBJ = new Project(
-  05,
+  "P_5",
   "project_5",
   "A Fresh Place",
   "A food-based ecommerce site.",
@@ -75,7 +75,7 @@ const AFRESHPLACE_OBJ = new Project(
   "https://startling-syrniki-d0dc90.netlify.app/"
 );
 const FAUNAANDFLORA_OBJ = new Project(
-  06,
+  "P_6",
   "project_6",
   "Fauna and Flora",
   "A plant-based informational site.",
@@ -87,7 +87,7 @@ const FAUNAANDFLORA_OBJ = new Project(
   "https://fantastic-starburst-b0f940.netlify.app/"
 );
 const ACCOUNTGUARD_OBJ = new Project(
-  07,
+  "P_7",
   "project_7",
   "AccountGuard",
   "A account manager PyQt5 app.",
@@ -99,7 +99,7 @@ const ACCOUNTGUARD_OBJ = new Project(
   undefined
 );
 const FILEZOID_OBJ = new Project(
-  08,
+  "P_8",
   "project_8",
   "Filezoid",
   "A file creator PyQt5 app.",
