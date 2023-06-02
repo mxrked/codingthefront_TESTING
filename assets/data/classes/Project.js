@@ -5,8 +5,20 @@
  */
 
 export default class Project {
-  constructor(id, name, desc, client, years, img, tools, code, demo) {
+  constructor(
+    id,
+    projectClass,
+    name,
+    desc,
+    client,
+    years,
+    img,
+    tools,
+    code,
+    demo
+  ) {
     this._id = id;
+    this._projectClass = projectClass;
     this._name = name;
     this._desc = desc;
     this._client = client;
@@ -19,6 +31,9 @@ export default class Project {
 
   set setId(id) {
     this._id = id;
+  }
+  set setProjectClass(projectClass) {
+    this._projectClass = projectClass;
   }
   set setName(name) {
     this._name = name;
@@ -47,6 +62,9 @@ export default class Project {
 
   get getId() {
     return this._id;
+  }
+  get getProjectClass() {
+    return this._projectClass;
   }
   get getName() {
     return this._name;
