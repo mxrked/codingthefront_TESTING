@@ -10,6 +10,7 @@ import { useRouter } from "next/router";
 import { PageHead } from "@/assets/components/global/All/PageHead";
 
 import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
+import ManipPageLink from "@/assets/functions/dom/manip/ManipPageLinks";
 
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
@@ -28,6 +29,11 @@ export default function Info() {
   // Triggering exit animations
   useEffect(() => {
     TriggerExitAnimations();
+  }, []);
+
+  // Disabling Page Links
+  useEffect(() => {
+    ManipPageLink("disable", "multiple", ".info-link");
   }, []);
 
   return (
