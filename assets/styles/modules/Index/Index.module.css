@@ -227,6 +227,7 @@
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_inner_side {
   display: flex;
@@ -1519,15 +1520,17 @@
     margin-bottom: 120px;
   }
   .index_info .l_big {
-    width: 310px;
-    height: 310px;
+    width: 270px;
+    height: 270px;
   }
   .index_info .l_small_1 {
     left: 210px;
   }
   .index_info .l_small_2 {
-    top: 210px;
-    left: 70px;
+    top: 160px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
   }
   .index_info .m_small_1 {
     width: 100px;
@@ -1549,7 +1552,7 @@
     right: 120px;
   }
   .index_info .index_info_inner {
-    padding-top: 120px;
+    padding-top: 210px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -1562,14 +1565,23 @@
     white-space: pre-wrap;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+  .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_L .index_info_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_L .index_info_inner_side_cnt a {
     height: 40px;
     font-size: 17px;
     max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .index_info .index_info_inner .index_info_inner_box .index_info_inner_row .index_info_R .index_info_inner_side_cnt .lottie {
     max-width: 280px;
+    right: 0;
   }
   .index_projects {
     margin-bottom: 120px;
@@ -1588,14 +1600,23 @@
     white-space: pre-wrap;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+  .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_L .index_projects_inner_side_cnt a {
     height: 40px;
     font-size: 17px;
     max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .index_projects .index_projects_inner .index_projects_inner_box .index_projects_inner_row .index_projects_R .index_projects_inner_side_cnt .lottie {
     max-width: 280px;
+    right: 0;
   }
   .index_contact {
     margin-bottom: 120px;
@@ -1614,14 +1635,23 @@
     white-space: pre-wrap;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+  .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_L .index_contact_inner_side_cnt a {
     height: 40px;
     font-size: 17px;
     max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .index_contact .index_contact_inner .index_contact_inner_box .index_contact_inner_row .index_contact_R .index_contact_inner_side_cnt .lottie {
     max-width: 280px;
+    right: 0;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {

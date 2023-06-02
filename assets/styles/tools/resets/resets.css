@@ -89,6 +89,7 @@ video {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* HTML5 display-role reset for older browsers */

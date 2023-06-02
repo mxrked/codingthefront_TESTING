@@ -341,6 +341,7 @@
     padding-top: 300px;
     max-width: 1400px;
     @include quickCenter("relative");
+    position: relative;
 
     .index_info_inner_box {
       .index_info_inner_row {
@@ -2030,16 +2031,18 @@
     margin-bottom: 120px;
 
     .l_big {
-      width: 310px;
-      height: 310px;
+      width: 270px;
+      height: 270px;
     }
 
     .l_small_1 {
       left: 210px;
     }
     .l_small_2 {
-      top: 210px;
-      left: 70px;
+      top: 160px;
+      left: 30px;
+      width: 40px;
+      height: 40px;
     }
 
     .m_small_1 {
@@ -2065,7 +2068,7 @@
     }
 
     .index_info_inner {
-      padding-top: 120px;
+      padding-top: 210px;
       padding-left: 50px;
       padding-right: 50px;
 
@@ -2080,12 +2083,19 @@
                 max-width: 70%;
                 white-space: pre-wrap;
                 @include quickCenter("relative");
+                text-align: center;
+              }
+
+              p {
+                @include quickCenter("relative");
+                text-align: center;
               }
 
               a {
                 height: 40px;
                 font-size: 17px;
                 max-width: 120px;
+                @include quickCenter("relative");
               }
             }
           }
@@ -2094,6 +2104,7 @@
             .index_info_inner_side_cnt {
               .lottie {
                 max-width: 280px;
+                right: 0;
               }
             }
           }
@@ -2120,12 +2131,19 @@
                 max-width: 70%;
                 white-space: pre-wrap;
                 @include quickCenter("relative");
+                text-align: center;
+              }
+
+              p {
+                text-align: center;
+                @include quickCenter("relative");
               }
 
               a {
                 height: 40px;
                 font-size: 17px;
                 max-width: 120px;
+                @include quickCenter("relative");
               }
             }
           }
@@ -2134,6 +2152,7 @@
             .index_projects_inner_side_cnt {
               .lottie {
                 max-width: 280px;
+                right: 0;
               }
             }
           }
@@ -2160,12 +2179,19 @@
                 max-width: 70%;
                 white-space: pre-wrap;
                 @include quickCenter("relative");
+                text-align: center;
+              }
+
+              p {
+                @include quickCenter("relative");
+                text-align: center;
               }
 
               a {
                 height: 40px;
                 font-size: 17px;
                 max-width: 120px;
+                @include quickCenter("relative");
               }
             }
           }
@@ -2174,6 +2200,7 @@
             .index_contact_inner_side_cnt {
               .lottie {
                 max-width: 280px;
+                right: 0;
               }
             }
           }
