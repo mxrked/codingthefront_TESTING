@@ -14,6 +14,9 @@ const ATI = CDNIconReturn("tab-icons", "apple-touch-icon", "png");
 const PYQT = CDNIconReturn("programming-languages", "pyqt", "webp");
 const PYTHON = CDNIconReturn("programming-languages", "python", "webp");
 const SQL = CDNIconReturn("programming-languages", "sql", "webp");
+const SASS = CDNIconReturn("programming-languages", "sass", "webp");
+const NEXTJS = CDNIconReturn("programming-languages", "nextjs", "webp");
+const REACT = CDNIconReturn("programming-languages", "react", "webp");
 
 export { FAVICON, FAVICON_16, FAVICON_32, ATI };
-export { PYQT, PYTHON, SQL };
+export { PYQT, PYTHON, SQL, SASS, NEXTJS, REACT };
