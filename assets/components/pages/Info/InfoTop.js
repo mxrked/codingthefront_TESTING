@@ -21,19 +21,6 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 
 import styles from "../../../styles/modules/Info/Info.module.css";
 
-const GradientCircle = (props) => {
-  return (
-    <div className={styles[props.gradient_circle_class]}>
-      <BackgroundImage
-        src={BG_GRADIENT}
-        className={`${styles.bg}`}
-        width="100%"
-        height="100%"
-      />
-    </div>
-  );
-};
-
 export const InfoTop = () => {
   const router = useRouter();
 
@@ -94,9 +81,6 @@ export const InfoTop = () => {
                     className={`${styles.lottie}`}
                     style={{ height: "300px", width: "300px" }}
                   ></Player>
-
-                  <GradientCircle gradient_circle_class="l_big" />
-                  <GradientCircle gradient_circle_class="r_big" />
                 </div>
               </div>
             </div>
