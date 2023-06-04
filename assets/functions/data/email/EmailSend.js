@@ -10,9 +10,9 @@ import CheckValidEmail from "./CheckValidEmail";
 import CheckValidPhoneNumber from "./CheckValidPhoneNumber";
 import DeclareStorageVariable from "../storage/DeclareStorageVariable";
 
-const SERVICE_ID = "service_sjf3zeb";
-const TEMPLATE_ID = "template_jcq9isf";
-const PUBLIC_KEY = "bT7Z2ZBkumqlNpl-Y";
+const SERVICE_ID = "service_amdtdgj";
+const TEMPLATE_ID = "template_i1i9p9i";
+const PUBLIC_KEY = "lDJjRNeJ2R54YI5Hq";
 
 emailjs.init(PUBLIC_KEY);
 
@@ -28,19 +28,19 @@ function CheckForSpaceInFirstCharacter(input) {
 
 export default function EmailSend(rooter, formTarget) {
   const FORM_NOTICE = document.getElementById("formNotice");
-  const FN = document.getElementById("formFN");
-  const LN = document.getElementById("formLN");
-  const EMAIL = document.getElementById("formEmail");
-  const PHONE = document.getElementById("formPhone");
-  const SUBJECT = document.getElementById("formSubject");
-  const MESSAGE = document.getElementById("formMessage");
+  const FN = document.getElementById("clientFN");
+  const LN = document.getElementById("clientLN");
+  const EMAIL = document.getElementById("clientEmail");
+  const PHONE = document.getElementById("clientPhone");
+  const SUBJECT = document.getElementById("clientSubject");
+  const MESSAGE = document.getElementById("clientMessage");
   const TEMPLATE_PARAMS = {
-    first_name: FN.value,
-    last_name: LN.value,
-    from_email: EMAIL.value,
-    phone: PHONE.value,
-    subject: SUBJECT.value,
-    message: MESSAGE.value,
+    clientFN: FN.value,
+    clientLN: LN.value,
+    clientEmail: EMAIL.value,
+    clientPhone: PHONE.value,
+    clientSubject: SUBJECT.value,
+    clientMessage: MESSAGE.value,
   };
 
   const CHECK_EMAIL = CheckValidEmail(EMAIL);
@@ -122,6 +122,8 @@ export default function EmailSend(rooter, formTarget) {
         } else {
           noSpacesAsFirstCharacter = false;
 
+          document.getElementById("formSentSuccessfully").style.opacity = 0;
+
           FORM_NOTICE.style.opacity = 1;
           FORM_NOTICE.innerHTML =
             "Error: You cannot have a space as the first character in an input.";
@@ -129,17 +131,23 @@ export default function EmailSend(rooter, formTarget) {
       } else {
         validPhone = false;
 
+        document.getElementById("formSentSuccessfully").style.opacity = 0;
+
         FORM_NOTICE.style.opacity = 1;
         FORM_NOTICE.innerHTML = "Error: That is an invalid phone number.";
       }
     } else {
       validEmail = false;
 
+      document.getElementById("formSentSuccessfully").style.opacity = 0;
+
       FORM_NOTICE.style.opacity = 1;
       FORM_NOTICE.innerHTML = "Error: That is an invalid email address.";
     }
   } else {
     nonEmptyInputs = false;
+
+    document.getElementById("formSentSuccessfully").style.opacity = 0;
 
     FORM_NOTICE.style.opacity = 1;
     FORM_NOTICE.innerHTML = "Error: You cannot have empty inputs.";
