@@ -15,6 +15,10 @@ import ManipPageLink from "@/assets/functions/dom/manip/ManipPageLinks";
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
+
+import { ContactTop } from "@/assets/components/pages/Contact/ContactTop";
+import { ContactForm } from "@/assets/components/pages/Contact/ContactForm";
+
 import { Footer } from "@/assets/components/global/Footer/Footer";
 
 import styles from "../assets/styles/modules/Contact/Contact.module.css";
@@ -41,6 +45,9 @@ export default function Contact() {
       <MobileNavMenu />
 
       <main id="PAGE_CNT">
+        <ContactTop />
+        <ContactForm />
+
         <Footer />
       </main>
     </div>
