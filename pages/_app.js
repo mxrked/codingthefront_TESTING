@@ -105,6 +105,7 @@ export default function App({ Component, pageProps }) {
       RemoveStorageVariable("session", "HREF");
       RemoveStorageVariable("session", "FM Loaded");
       RemoveStorageVariable("session", "Page Reload");
+      RemoveStorageVariable("session", "Submission Sent");
     }
   }, [router]);
 
