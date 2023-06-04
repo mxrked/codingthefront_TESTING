@@ -53,6 +53,10 @@ export const ContactForm = () => {
             Submission sent!
           </span>
 
+          <span id="formNotice" className={`${styles.form_notice}`}>
+            PLACE_TEXT_HERE
+          </span>
+
           <form
             noValidate="noValidate"
             autoComplete={"false"}
@@ -66,8 +70,8 @@ export const ContactForm = () => {
               <div className={`${styles.contact_form_set}`}>
                 <input
                   type="text"
-                  id="formFN"
-                  name="first_name"
+                  id="clientFN"
+                  name="clientFN"
                   className="half-second"
                   placeholder="First Name"
                   autoComplete={"off"}
@@ -77,8 +81,8 @@ export const ContactForm = () => {
               <div className={`${styles.contact_form_set}`}>
                 <input
                   type="text"
-                  id="formLN"
-                  name="last_name"
+                  id="clientLN"
+                  name="clientLN"
                   className="half-second"
                   placeholder="Last Name"
                   autoComplete={"off"}
@@ -90,8 +94,8 @@ export const ContactForm = () => {
               <div className={`${styles.contact_form_set}`}>
                 <input
                   type="email"
-                  id="formEmail"
-                  name="from_email"
+                  id="clientEmail"
+                  name="clientEmail"
                   className="half-second"
                   placeholder="Email Address"
                   autoComplete={"off"}
@@ -105,8 +109,8 @@ export const ContactForm = () => {
                   </span>
                   <input
                     type="tel"
-                    id="formPhone"
-                    name="phone"
+                    id="clientPhone"
+                    name="clientPhone"
                     className="half-second"
                     placeholder="Phone Number"
                     autoComplete={"off"}
@@ -122,8 +126,8 @@ export const ContactForm = () => {
               <div className={`${styles.contact_form_set}`}>
                 <input
                   type="text"
-                  id="formSubject"
-                  name="subject"
+                  id="clientSubject"
+                  name="clientSubject"
                   className="half-second"
                   placeholder="Subject"
                   autoComplete={"off"}
@@ -136,8 +140,8 @@ export const ContactForm = () => {
                 <textarea
                   data-gram="false"
                   data-disable-grammarly="true"
-                  id="formMessage"
-                  name="message"
+                  id="clientMessage"
+                  name="clientMessage"
                   className="half-second"
                   placeholder="Message"
                 />
@@ -160,10 +164,6 @@ export const ContactForm = () => {
               </button>
             </div>
           </form>
-
-          <span id="formNotice" className={`${styles.form_notice}`}>
-            PLACE_TEXT_HERE
-          </span>
         </div>
       </motion.div>
     </section>
