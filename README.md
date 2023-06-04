@@ -22,7 +22,7 @@ Demo: https://codingthefront.com/
 
 ## Started Developement - 5/21/2023
 
-## Ended Development - In Progress
+## Ended Development - 6/4/2023
 
 ## Status
 
