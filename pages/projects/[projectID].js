@@ -8,6 +8,9 @@ import Head from "next/head";
 // Data/Functions/Images Imports
 
 // Component Imports
+import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
+import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
+import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
 
 // Style Imports
 import "../../assets/styles/modules/Projects/Projects.module.css";
@@ -92,6 +95,10 @@ export default function Projects({ PROJECT }) {
 
   return (
     <div id="PAGE" className="overrides_Projects page full-second">
+      <DesktopNav disableLink="/projects" />
+      <MobileNav disableLink="/projects" />
+      <MobileNavMenu disableLink="/projects" />
+
       <main id="PAGE_CNT"></main>
     </div>
   );

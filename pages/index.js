@@ -8,6 +8,9 @@ import { useRouter } from "next/router";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
+import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
+import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
+import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -32,6 +35,9 @@ export default function Home({ index_projects_data }) {
   return (
     <div id="PAGE" className="overrides_Index page full-second">
       <PageHead />
+      <DesktopNav disableLink="/" />
+      <MobileNav disableLink="/" />
+      <MobileNavMenu disableLink="/" />
 
       <main id="PAGE_CNT"></main>
     </div>
