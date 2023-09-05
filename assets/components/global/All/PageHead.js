@@ -66,7 +66,7 @@ export const PageHead = () => {
   }
 
   // About Page
-  if (router.pathname == "/about") {
+  if (router.pathname == "/info") {
     title = "codingthefront - About Parker";
     robots = "index, follow";
     url = router.pathname;
