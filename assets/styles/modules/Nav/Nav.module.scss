@@ -28,37 +28,95 @@
 }
 
 @media all and (max-width: 991px) {
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
+  .mobile_nav,
+  .mobile_nav_menu {
+    display: none !important;
+  }
 }
 
 // Desktop Window (Smallest)
 @media all and (max-width: 768px) {
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
 }
 
 // Smaller Devices (Phones)
 @media all and (max-width: 419px) {
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
 }
 
 // Pixel 2 XL
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
 }
 
 // Ipad
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .desktop_nav {
+    display: block;
+  }
+  .mobile_nav {
+    display: none;
+  }
 }
 
 // iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .desktop_nav {
+    display: block;
+  }
+  .mobile_nav {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .desktop_nav {
+    display: block;
+  }
+  .mobile_nav {
+    display: none;
+  }
 }
 
 // Laptops
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .desktop_nav {
+    display: block;
+  }
+  .mobile_nav {
+    display: none;
+  }
 }
