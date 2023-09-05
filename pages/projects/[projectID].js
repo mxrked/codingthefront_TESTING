@@ -6,6 +6,7 @@ import Head from "next/head";
 // Library Imports
 
 // Data/Functions/Images Imports
+import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 // Component Imports
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
@@ -92,6 +93,11 @@ export async function getStaticProps(context) {
 
 export default function Projects({ PROJECT }) {
   const router = useRouter();
+
+  // Triggering exit animations
+  useEffect(() => {
+    TriggerExitAnimations();
+  }, []);
 
   return (
     <div id="PAGE" className="overrides_Projects page full-second">

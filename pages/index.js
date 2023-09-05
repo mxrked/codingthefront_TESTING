@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 // Library Imports
 
 // Data/Functions/Images Imports
+import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
@@ -31,6 +32,11 @@ export const getStaticProps = async () => {
 
 export default function Home({ index_projects_data }) {
   const router = useRouter();
+
+  // Triggering exit animations
+  useEffect(() => {
+    TriggerExitAnimations();
+  }, []);
 
   return (
     <div id="PAGE" className="overrides_Index page full-second">
