@@ -3,7 +3,7 @@
  *  This is the Mobile Nav
  *
  */
-
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import { useAnimation, motion } from "framer-motion";
@@ -16,7 +16,7 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
-export const DesktopNav = () => {
+export const MobileNav = (props) => {
   const router = useRouter();
 
   //! Framer Motion Detect InView
@@ -27,7 +27,7 @@ export const DesktopNav = () => {
   }, [CONTROLS, INVIEW]);
 
   return (
-    <nav>
+    <nav className={`${styles.mobile_nav} overrides_MobileNav`}>
       <motion.div
         className={`${styles.motion} fm-motion full-second fade-in`}
         ref={REF}
@@ -45,39 +45,7 @@ export const DesktopNav = () => {
               </a>
             </div>
 
-            <button
-              id="mobileNavToggler"
-              onClick={() => {
-                const DARKEN = document.getElementById("mobileNavDarken");
-                const MAIN = document.getElementById("mobileNavMain");
-                const CNT = document.getElementById("mobileNavMainCnt");
-
-                DeclareStorageVariable("session", "Mobile Nav Opened", true);
-
-                document.body.style.pointerEvents = "none";
-                document.body.style.overflowY = "hidden";
-
-                setTimeout(() => {
-                  DARKEN.style.opacity = 1;
-                  DARKEN.style.visibility = "visible";
-                }, 500);
-
-                setTimeout(() => {
-                  MAIN.style.transform = "translateX(0)";
-                }, 850);
-
-                setTimeout(() => {
-                  CNT.style.opacity = 1;
-                  CNT.style.visibility = "visible";
-                }, 1600);
-
-                setTimeout(() => {
-                  DARKEN.style.pointerEvents = "auto";
-                  MAIN.style.pointerEvents = "auto";
-                  MAIN.style.overflowY = "auto";
-                }, 2000);
-              }}
-            >
+            <button id="mobileNavToggler">
               <span className="half-second" />
               <span className="half-second" />
               <span className="half-second" />

@@ -4,6 +4,7 @@
  *
  */
 
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import { useAnimation, motion } from "framer-motion";
@@ -16,15 +17,8 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
-export const DesktopNav = () => {
+export const MobileNavMenu = (props) => {
   const router = useRouter();
-
-  //! Framer Motion Detect InView
-  const CONTROLS = useAnimation();
-  const [REF, INVIEW] = useInView();
-  useEffect(() => {
-    TriggerInViewMotion(CONTROLS, INVIEW);
-  }, [CONTROLS, INVIEW]);
 
   return (
     <div
