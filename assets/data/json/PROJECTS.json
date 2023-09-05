@@ -1,0 +1,398 @@
+[
+  {
+    "projectID": "P_001",
+    "projectType": "Regular",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/rtsyvisuals-display-new.webp",
+    "projectCode": "https://github.com/mxrked/rtsyvisuals",
+    "projectDemo": "https://rtsyvisuals.com/",
+    "projectName": "RTSYVisuals",
+    "projectClientName": "Freelance Consultant",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2023",
+    "projectDesc": "A photography based website that is used to display the many different images and photos that Rick Dingwall has taken over the years being a freelance photographer. Browse and get a look at the many different artistic captures that Rick has made over the years. He even allows potential clients to book private session with him to get a even better photo created.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using Next.js, ReactJS and Sass.",
+      "Uploaded the project to Netlify for faster hosting.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating responsive and fast loading images.",
+      "Creating the contact form."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes.",
+      "Created the contact form using EmailJS.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date photography website that differs greatly from the previous RTSYVisuals website. The improved loadtimes heavily benefit the quality of this website by allow potiental clients to contact Rick for his services more quickly.",
+    "projectDomain": "rtsyvisuals.com",
+    "projectHosting": "FREE",
+    "projectPages": "5 Static"
+  },
+  {
+    "projectID": "P_002",
+    "projectType": "Regular",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/fiber-company-display.webp",
+    "projectCode": "N/A",
+    "projectDemo": "https://fibercompanync.com/",
+    "projectName": "FiberCompany NC",
+    "projectClientName": "Freelance Consultant",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2023",
+    "projectDesc": "A art-gallery website for FiberCompany NC. FiberCompany is a women-led arts and crafts textile company that is located in downtown Winston-Salem. Listed on the website are the different products they have created over the years and each of which are for sale and ready for purchase.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using Wix and EditorX.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating responsive and fast loading images.",
+      "Creating a gallery that can add/remove different images.",
+      "Learning how to use Wix and EditorX."
+    ],
+    "projectProcessAchievementsArray": [
+      "Learning how to use Wix and EditorX.",
+      "Created a gallery that can add/remove different images.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were Wix and EditorX.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/wix.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/editor-x.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date art-gallery website that differs greatly from the previous FiberCompany website. The gallery page makes it easy for the client to add/remove different images at their request.",
+    "projectDomain": "fibercompanync.com",
+    "projectHosting": "None",
+    "projectPages": "2 Static"
+  },
+  {
+    "projectID": "P_003",
+    "projectType": "Regular",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/animalarkofsummerlin-display.webp",
+    "projectCode": "https://github.com/mxrked/animalarkofsummerlin",
+    "projectDemo": "https://animalarkofsummerlin.com/",
+    "projectName": "Animal Ark of Summerlin",
+    "projectClientName": "Freelance Consultant",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2023",
+    "projectDesc": "A dog adoption and animal rescue company, Animal Ark of Summerlin is dedicated to protect all animals but most specifically dogs. Susan Allison has dedicated her life to protect man's best friend and to provide them with a home and comfort. All the dogs listed on the website are for adoption.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass and BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating responsive and fast loading images.",
+      "Creating a page for each dog that allows them to be adopted using the adoption form.",
+      "Created an contact and adoption form."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a page for each dog that allows them to be adopted.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were Wix and EditorX.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date dog rescue website that allows the user to adopt a dog and to contact Susan Allison.",
+    "projectDomain": "animalarkofsummerlin.com",
+    "projectHosting": "Monthly ($22.00)",
+    "projectPages": "5 Static, 1 Dynamic"
+  },
+  {
+    "projectID": "P_004",
+    "projectType": "Renting",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/distinctpaintingllc-display.webp",
+    "projectCode": "https://github.com/mxrked/distinctpaintingllc",
+    "projectDemo": "https://distinctpaintingllc.com/",
+    "projectName": "Distinct Painting LLC",
+    "projectClientName": "Freelance Consultant",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2023",
+    "projectDesc": "A painting and home improvement website dedicated to Distinct Painting LLC. This company will offer many different services ranging from house painting, dry wall repair, pressure washing and carpentry/woodcraft. You can book an appointment using the contact form.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating responsive and fast loading images.",
+      "Creating a gallery that holds different images."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a contact form using EmailJS",
+      "Created a gallery that holds different images.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date home-improvement website that allows the user to book a service using the contact form and to reach out to the company owner for any questions they may have.",
+    "projectDomain": "distinctpaintingllc.com",
+    "projectHosting": "Monthly ($52.00)",
+    "projectPages": "3 Static"
+  },
+  {
+    "projectID": "P_005",
+    "projectType": "Regular",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/radiance-glow-hsc-display.webp",
+    "projectCode": "https://github.com/mxrked/radiance-glow-hard-surface-cleaning",
+    "projectDemo": "https://radianceglowhsc.com/",
+    "projectName": "Radiance Glow Hard Surface Cleaning",
+    "projectClientName": "Freelance Consultant",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2023",
+    "projectDesc": "A home-improvement website for Radiance Glow Hard Surface Cleaning. This company provides services such as pressure washing, tile-grout cleaning, wood-floor cleaning, carpet cleaning, upholstery and etc. You can book a service using the contact form.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating responsive and fast loading images.",
+      "Creating a contact form that books a service."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a contact form using EmailJS",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date home-improvement website that allows the user to book a service using the contact form and to reach out to the company owner for any questions they may have.",
+    "projectDomain": "radianceglowhsc.com",
+    "projectHosting": "Monthly ($22.00)",
+    "projectPages": "3 Static"
+  },
+  {
+    "projectID": "P_006",
+    "projectType": "Practice",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/animex-streaming-display.webp",
+    "projectCode": "https://github.com/mxrked/animex_streaming",
+    "projectDemo": "https://sparkling-dragon-f3af91.netlify.app/",
+    "projectName": "Animex Streaming",
+    "projectClientName": "Parker Phelps",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2022",
+    "projectDesc": "A anime streaming website dedicated to all things anime. You can view the different types of popular and underrated anime on this website by clicking on your perferred series. You will be able to search and view the trailer of each series.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating responsive and fast loading images.",
+      "Creating a page for each series."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a contact form using EmailJS",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date anime streaming website that allows the user to pick and choose between the different anime they would like to watch.",
+    "projectDomain": "sparkling-dragon-f3af91.netlify.app",
+    "projectHosting": "None",
+    "projectPages": "3 Static"
+  },
+  {
+    "projectID": "P_007",
+    "projectType": "Practice",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/onlyjojo-display.webp",
+    "projectCode": "https://github.com/mxrked/OnlyJojo",
+    "projectDemo": "https://startling-syrniki-d0dc90.netlify.app/",
+    "projectName": "OnlyJojo",
+    "projectClientName": "Parker Phelps",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2022",
+    "projectDesc": "A ecommerce-based website dedicated to the popular manga and anime series Jojo's Bizarre Adventure. The website includes a custom and built from scratch shopping cart. It also features a Japanese translation button.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating a built from scratch custom shopping cart.",
+      "Creating a japanese translation button."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a shopping cart.",
+      "Created a japanese translation button.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date ecommerce website that has a functional (non-profitable) shopping cart. As well as a japanese translation button for Japanese speaking users.",
+    "projectDomain": "startling-syrniki-d0dc90.netlify.app",
+    "projectHosting": "None",
+    "projectPages": "4 Static"
+  },
+  {
+    "projectID": "P_008",
+    "projectType": "Practice",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/sharpquills-display.webp",
+    "projectCode": "https://github.com/mxrked/SharpQuill_NEXTJS",
+    "projectDemo": "https://astounding-gaufre-f9428d.netlify.app/",
+    "projectName": "Sharp Quills",
+    "projectClientName": "Parker Phelps",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2022",
+    "projectDesc": "A informational-based website dedicated to all things hedgehog related. The website lists all of the different hedgehog species and information about each one. You will also be able to 'adopt' a hedgehog for yourself.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating a gallery of all the different hedgehogs.",
+      "Creating a 'adoption' form."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a gallery of all the different hedgehogs.",
+      "Created a 'adoption' form.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date informational-based website dedicated to hedgehogs. Along with the gallery, there are modals for each hedgehog image. There is also an 'adoption' form.",
+    "projectDomain": "astounding-gaufre-f9428d.netlify.app",
+    "projectHosting": "None",
+    "projectPages": "10 Static"
+  },
+  {
+    "projectID": "P_009",
+    "projectType": "Practice",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/afreshplace-display.webp",
+    "projectCode": "https://github.com/mxrked/AFreshPlace",
+    "projectDemo": "https://effulgent-marshmallow-23dfdf.netlify.app/",
+    "projectName": "A Fresh Place",
+    "projectClientName": "Parker Phelps",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2022",
+    "projectDesc": "A ecommerce-based website dedicated to fruits, produce, meats and desserts. The website also has a custom and built from scratch shopping cart that calculates the grand total.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating a built from scratch custom shopping cart.",
+      "Creating alot of products for the website."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a built from scratch custom shopping cart.",
+      "Created alot of products for the website.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a more modern and up-to-date ecommerce website that has a functional (non-profitable) shopping cart. There are many different products to choose from as well.",
+    "projectDomain": "https://effulgent-marshmallow-23dfdf.netlify.app/",
+    "projectHosting": "None",
+    "projectPages": "7 Static"
+  },
+  {
+    "projectID": "P_010",
+    "projectType": "Practice",
+    "projectImg": "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/imgs/projects/faunaandflora-display.webp",
+    "projectCode": "https://github.com/mxrked/floraandfauna",
+    "projectDemo": "https://fantastic-starburst-b0f940.netlify.app/",
+    "projectName": "Fauna and Flora",
+    "projectClientName": "Parker Phelps",
+    "projectStatus": "Completed",
+    "projectCompletionDate": "2022",
+    "projectDesc": "A informational-based website dedicated to the different flora and fauna of North Carolina. There is a custom made search bar that will allow you to search up a specific specimen based on its name.",
+    "projectProcessTimelineArray": [
+      "Gathered materials such as images, colors and fonts.",
+      "Created a XD design for the building phase.",
+      "Began building the project using ReactJS, Next.js, Sass, BootStrap.",
+      "Completed project!"
+    ],
+    "projectProcessChallengesArray": [
+      "Creating a more modern and plesant looking design.",
+      "Creating a custom made search bar.",
+      "Gathering and displaying all of the local flora and fauna."
+    ],
+    "projectProcessAchievementsArray": [
+      "Using Netlify for faster loadtimes",
+      "Created a custom made search bar.",
+      "Gathered and displayed all of the local flora and fauna.",
+      "Completed the project!"
+    ],
+    "projectToolsText": "The tools that were used creating this project were ReactJS, Next.js, Sass and BootStrap.",
+    "projectToolsArray": [
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/react.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/nextjs.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/sass.webp",
+      "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/icons/programming-languages/bootstrap.webp"
+    ],
+    "projectResultText": "The result of this project was the creation of a easy to use informational website that displays the different flora and fauna of North Carolina. To make it easier, there is a search bar to filter out and display a specimen based off their name.",
+    "projectDomain": "fantastic-starburst-b0f940.netlify.app",
+    "projectHosting": "None",
+    "projectPages": "1 Static"
+  }
+]
