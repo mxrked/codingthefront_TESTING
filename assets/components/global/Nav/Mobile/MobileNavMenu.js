@@ -14,6 +14,7 @@ import { FaCode, FaTimes } from "react-icons/fa";
 import { FADE_IN } from "@/assets/animations/FADES";
 
 import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
+import CloseMobileNav from "@/assets/functions/dom/closers/CloseMobileNav";
 
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
@@ -28,6 +29,9 @@ export const MobileNavMenu = (props) => {
       <div
         className={`${styles.darken} full-second`}
         id="mobileNavMenuDarken"
+        onClick={() => {
+          CloseMobileNav();
+        }}
       />
 
       <div
@@ -46,6 +50,9 @@ export const MobileNavMenu = (props) => {
             <button
               id="mobileNavCloser"
               className="orientation-change-element half-second"
+              onClick={() => {
+                CloseMobileNav();
+              }}
             >
               <FaTimes className={`${styles.icon}`} />
             </button>
@@ -63,7 +70,7 @@ export const MobileNavMenu = (props) => {
                 <li>
                   <a
                     href="/"
-                    className={`${styles.active} orientation-change-element half-second`}
+                    className={`${styles.active} nav-link orientation-change-element half-second`}
                   >
                     <span>Home</span>
                   </a>
@@ -81,7 +88,7 @@ export const MobileNavMenu = (props) => {
                 <li>
                   <a
                     href="/projects"
-                    className={`${styles.active} orientation-change-element half-second`}
+                    className={`${styles.active} nav-link orientation-change-element half-second`}
                   >
                     <span>Projects</span>
                   </a>
@@ -99,7 +106,7 @@ export const MobileNavMenu = (props) => {
                 <li>
                   <a
                     href="/info"
-                    className={`${styles.active} orientation-change-element half-second`}
+                    className={`${styles.active} nav-link orientation-change-element half-second`}
                   >
                     <span>About</span>
                   </a>
@@ -117,7 +124,7 @@ export const MobileNavMenu = (props) => {
                 <li>
                   <a
                     href="/contact"
-                    className={`${styles.active} orientation-change-element half-second`}
+                    className={`${styles.active} nav-link orientation-change-element half-second`}
                   >
                     <span>Contact</span>
                   </a>
