@@ -59,7 +59,7 @@ function TriggerExitAnimations() {
         DeclareStorageVariable("session", "HREF", link.href);
 
         // Closing the mobile nav and search
-        // CloseMobileNav();
+        CloseMobileNav();
 
         // Disabling pointer events and scrolling
         setTimeout(() => {
@@ -87,7 +87,7 @@ function TriggerExitAnimations() {
         setTimeout(() => {
           window.location.href = sessionStorage.getItem("HREF");
           RemoveStorageVariable("session", "EA Fix");
-        }, 2700);
+        }, 2670);
       });
     }
   });
