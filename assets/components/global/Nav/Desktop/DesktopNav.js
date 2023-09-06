@@ -45,20 +45,31 @@ export const DesktopNav = (props) => {
                 <div className={`${styles.desktop_nav_inner_side_cnt}`}>
                   {props.disableLink == "/" ? (
                     <div
-                      className={`${styles.logo} ${styles.deactive} half-second`}
+                      className={`${styles.logo} ${styles.deactive} orientation-change-element half-second`}
                     >
-                      <FaCode className={`${styles.icon}`} />
+                      <FaCode
+                        className={`${styles.icon} orientation-change-element half-second`}
+                      />
 
-                      <span>codingthefront</span>
+                      <span className="orientation-change-element half-second">
+                        codingthefront
+                      </span>
                     </div>
                   ) : (
                     <div
-                      className={`${styles.logo} ${styles.active} half-second`}
+                      className={`${styles.logo} ${styles.active} orientation-change-element half-second`}
                     >
-                      <a href="/">
-                        <FaCode className={`${styles.icon}`} />
+                      <a
+                        href="/"
+                        className="orientation-change-element half-second"
+                      >
+                        <FaCode
+                          className={`${styles.icon} orientation-change-element half-second`}
+                        />
 
-                        <span>codingthefront</span>
+                        <span className="orientation-change-element half-second">
+                          codingthefront
+                        </span>
                       </a>
                     </div>
                   )}
@@ -71,20 +82,27 @@ export const DesktopNav = (props) => {
                   <ul>
                     {props.disableLink == "/" ? (
                       <li>
-                        <span className={`${styles.deactive} half-second`}>
+                        <span
+                          className={`${styles.deactive} orientation-change-element half-second`}
+                        >
                           Home
                         </span>
                       </li>
                     ) : (
                       <li>
-                        <a href="/" className={`${styles.active} half-second`}>
+                        <a
+                          href="/"
+                          className={`${styles.active} orientation-change-element half-second`}
+                        >
                           <span>Home</span>
                         </a>
                       </li>
                     )}
                     {props.disableLink == "/projects" ? (
                       <li>
-                        <span className={`${styles.deactive} half-second`}>
+                        <span
+                          className={`${styles.deactive} orientation-change-element half-second`}
+                        >
                           Projects
                         </span>
                       </li>
@@ -92,7 +110,7 @@ export const DesktopNav = (props) => {
                       <li>
                         <a
                           href="/projects"
-                          className={`${styles.active} half-second`}
+                          className={`${styles.active} orientation-change-element half-second`}
                         >
                           <span>Projects</span>
                         </a>
@@ -100,7 +118,9 @@ export const DesktopNav = (props) => {
                     )}
                     {props.disableLink == "/info" ? (
                       <li>
-                        <span className={`${styles.deactive} half-second`}>
+                        <span
+                          className={`${styles.deactive} orientation-change-element half-second`}
+                        >
                           About
                         </span>
                       </li>
@@ -108,7 +128,7 @@ export const DesktopNav = (props) => {
                       <li>
                         <a
                           href="/info"
-                          className={`${styles.active} half-second`}
+                          className={`${styles.active} orientation-change-element half-second`}
                         >
                           <span>About</span>
                         </a>
@@ -116,7 +136,9 @@ export const DesktopNav = (props) => {
                     )}
                     {props.disableLink == "/contact" ? (
                       <li>
-                        <span className={`${styles.deactive} half-second`}>
+                        <span
+                          className={`${styles.deactive} orientation-change-element half-second`}
+                        >
                           Contact
                         </span>
                       </li>
@@ -124,7 +146,7 @@ export const DesktopNav = (props) => {
                       <li>
                         <a
                           href="/contact"
-                          className={`${styles.active} half-second`}
+                          className={`${styles.active} orientation-change-element half-second`}
                         >
                           <span>Contact</span>
                         </a>

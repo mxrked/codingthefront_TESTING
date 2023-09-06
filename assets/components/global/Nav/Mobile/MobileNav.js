@@ -37,18 +37,38 @@ export const MobileNav = (props) => {
       >
         <div className={`${styles.mobile_nav_inner}`} id="mobileNavInner">
           <div className={`${styles.mobile_nav_inner_cnt}`}>
-            <div className={`${styles.logo}`}>
-              <a href="/" className="index-link half-second">
-                <FaCode className={`${styles.icon}`} />
+            {props.disableLink == "/" ? (
+              <div
+                className={`${styles.logo} ${styles.deactive} orientation-change-element half-second`}
+              >
+                <FaCode
+                  className={`${styles.icon} orientation-change-element half-second`}
+                />
 
-                <span>codingthefront</span>
-              </a>
-            </div>
+                <span className="orientation-change-element half-second">
+                  codingthefront
+                </span>
+              </div>
+            ) : (
+              <div
+                className={`${styles.logo} ${styles.active} orientation-change-element half-second`}
+              >
+                <a href="/" className="orientation-change-element half-second">
+                  <FaCode
+                    className={`${styles.icon} orientation-change-element half-second`}
+                  />
+
+                  <span className="orientation-change-element half-second">
+                    codingthefront
+                  </span>
+                </a>
+              </div>
+            )}
 
             <button id="mobileNavToggler">
-              <span className="half-second" />
-              <span className="half-second" />
-              <span className="half-second" />
+              <span className="orientation-change-element half-second" />
+              <span className="orientation-change-element half-second" />
+              <span className="orientation-change-element half-second" />
             </button>
           </div>
         </div>

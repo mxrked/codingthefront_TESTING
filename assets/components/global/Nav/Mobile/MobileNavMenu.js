@@ -24,6 +24,14 @@ export const MobileNavMenu = (props) => {
     <div
       id="mobileNavMenu"
       className={`${styles.mobile_nav_menu} overrides_MobileNavMenu`}
-    ></div>
+    >
+      <div className={`${styles.mobile_nav_menu_inner} half-second`}>
+        <div className={`${styles.mobile_nav_menu_inner_cnt}`}>
+          <FaCode
+            className={`${styles.icon} orientation-change-element half-second`}
+          />
+        </div>
+      </div>
+    </div>
   );
 };
