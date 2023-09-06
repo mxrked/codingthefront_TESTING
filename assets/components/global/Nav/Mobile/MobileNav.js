@@ -13,6 +13,7 @@ import { FaCode } from "react-icons/fa";
 import { FADE_IN } from "@/assets/animations/FADES";
 
 import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
+import ToggleMobileNav from "@/assets/functions/dom/togglers/ToggleMobileNav";
 
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
@@ -36,40 +37,64 @@ export const MobileNav = (props) => {
         variants={FADE_IN}
       >
         <div className={`${styles.mobile_nav_inner}`} id="mobileNavInner">
-          <div className={`${styles.mobile_nav_inner_cnt}`}>
-            {props.disableLink == "/" ? (
+          <div className={`${styles.mobile_nav_inner_box} container-fluid`}>
+            <div className={`${styles.mobile_nav_inner_row} row`}>
               <div
-                className={`${styles.logo} ${styles.deactive} orientation-change-element half-second`}
+                className={`${styles.mobile_nav_inner_side} ${styles.mobile_nav_L} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
               >
-                <FaCode
-                  className={`${styles.icon} orientation-change-element half-second`}
-                />
+                <div className={`${styles.mobile_nav_inner_side_cnt}`}>
+                  <div className={`${styles.mobile_nav_inner_cnt}`}>
+                    {props.disableLink == "/" ? (
+                      <div
+                        className={`${styles.logo} ${styles.deactive} orientation-change-element half-second`}
+                      >
+                        <FaCode
+                          className={`${styles.icon} orientation-change-element half-second`}
+                        />
 
-                <span className="orientation-change-element half-second">
-                  codingthefront
-                </span>
+                        <span className="orientation-change-element half-second">
+                          codingthefront
+                        </span>
+                      </div>
+                    ) : (
+                      <div
+                        className={`${styles.logo} ${styles.active} orientation-change-element half-second`}
+                      >
+                        <a
+                          href="/"
+                          className="orientation-change-element half-second"
+                        >
+                          <FaCode
+                            className={`${styles.icon} orientation-change-element half-second`}
+                          />
+
+                          <span className="orientation-change-element half-second">
+                            codingthefront
+                          </span>
+                        </a>
+                      </div>
+                    )}
+                  </div>
+                </div>
               </div>
-            ) : (
+
               <div
-                className={`${styles.logo} ${styles.active} orientation-change-element half-second`}
+                className={`${styles.mobile_nav_inner_side} ${styles.mobile_nav_R} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
               >
-                <a href="/" className="orientation-change-element half-second">
-                  <FaCode
-                    className={`${styles.icon} orientation-change-element half-second`}
-                  />
-
-                  <span className="orientation-change-element half-second">
-                    codingthefront
-                  </span>
-                </a>
+                <div className={`${styles.mobile_nav_inner_side_cnt}`}>
+                  <button
+                    id="mobileNavToggler"
+                    onClick={() => {
+                      ToggleMobileNav();
+                    }}
+                  >
+                    <span className="orientation-change-element half-second" />
+                    <span className="orientation-change-element half-second" />
+                    <span className="orientation-change-element half-second" />
+                  </button>
+                </div>
               </div>
-            )}
-
-            <button id="mobileNavToggler">
-              <span className="orientation-change-element half-second" />
-              <span className="orientation-change-element half-second" />
-              <span className="orientation-change-element half-second" />
-            </button>
+            </div>
           </div>
         </div>
       </motion.div>
