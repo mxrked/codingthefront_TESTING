@@ -232,6 +232,7 @@
 .mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul li a {
   text-decoration: none;
   color: #080a0c;
+  display: inline-block;
 }
 .mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul li a:hover {
   color: #14cce9;
