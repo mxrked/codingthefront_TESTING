@@ -5,7 +5,7 @@
  */
 
 const SERVER =
-  "https://raw.githubusercontent.com/mxrked/codingthefront_2023_CDN/master/";
+  "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/master/";
 
 function CDNBGReturn(bgSub, bgSubFile, fileExt) {
   let bgSrc;
