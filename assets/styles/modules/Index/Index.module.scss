@@ -22,6 +22,122 @@
 }
 
 // Desktop
+.index_top {
+  height: 1100px;
+  width: 100%;
+  position: relative;
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(4, 23, 40, 0.75);
+    @include displayElement(flex, center, center);
+    text-align: center;
+
+    &:hover {
+      background-color: rgba(4, 23, 40, 0.85);
+    }
+
+    .overlay_cnt {
+      .top_text {
+        font-family: "FG Bold";
+        font-size: $SubHeading;
+        color: white;
+      }
+
+      h1 {
+        font-family: "FG Bold";
+        font-size: $MajorHeading;
+        color: white;
+      }
+
+      p {
+        font-family: "Consola Regular";
+        font-size: $Text;
+        color: white;
+      }
+
+      ul {
+        @include displayElement(flex, space-evenly, center);
+        max-width: 380px;
+        width: 100%;
+        @include quickCenter("relative");
+        margin-top: 45px;
+
+        li {
+          width: 100%;
+
+          a {
+            font-family: "Consola Bold";
+            height: 50px;
+            color: white;
+            border-radius: 5px;
+            font-size: $Text;
+            text-decoration: none;
+            @include displayElement(flex, center, center);
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+
+            &::after {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 0;
+              height: 100%;
+              background-color: rgba(255, 255, 255, 0.4);
+              -webkit-transition: none;
+              -moz-transition: none;
+              transition: none;
+            }
+
+            &:hover {
+              &::after {
+                width: 120%;
+                background-color: rgba(255, 255, 255, 0);
+                -webkit-transition: all 0.4s ease-in-out;
+                -moz-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+              }
+            }
+          }
+
+          .info_link {
+            background-color: $BrightTurquoise;
+            max-width: 140px;
+
+            &:hover {
+              background-color: $BlueChill;
+            }
+          }
+
+          .projects_link {
+            background-color: $BrightTurquoise;
+            max-width: 190px;
+
+            &:hover {
+              background-color: $BlueChill;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {

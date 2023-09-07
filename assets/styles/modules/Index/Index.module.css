@@ -13,4 +13,105 @@
 @font-face {
   font-family: "FG Semibold";
   src: url("../../../fonts/FoundersGrotesk-Semibold.otf");
+}
+.index_top {
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+.index_top video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.7;
+}
+.index_top .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(4, 23, 40, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.index_top .overlay:hover {
+  background-color: rgba(4, 23, 40, 0.85);
+}
+.index_top .overlay .overlay_cnt .top_text {
+  font-family: "FG Bold";
+  font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+  color: white;
+}
+.index_top .overlay .overlay_cnt h1 {
+  font-family: "FG Bold";
+  font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
+  color: white;
+}
+.index_top .overlay .overlay_cnt p {
+  font-family: "Consola Regular";
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  color: white;
+}
+.index_top .overlay .overlay_cnt ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+}
+.index_top .overlay .overlay_cnt ul li {
+  width: 100%;
+}
+.index_top .overlay .overlay_cnt ul li a {
+  font-family: "Consola Bold";
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.index_top .overlay .overlay_cnt ul li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: none;
+}
+.index_top .overlay .overlay_cnt ul li a:hover::after {
+  width: 120%;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.4s ease-in-out;
+}
+.index_top .overlay .overlay_cnt ul li .info_link {
+  background-color: #14cce9;
+  max-width: 140px;
+}
+.index_top .overlay .overlay_cnt ul li .info_link:hover {
+  background-color: #1092a7;
+}
+.index_top .overlay .overlay_cnt ul li .projects_link {
+  background-color: #14cce9;
+  max-width: 190px;
+}
+.index_top .overlay .overlay_cnt ul li .projects_link:hover {
+  background-color: #1092a7;
 }/*# sourceMappingURL=Index.module.css.map */
