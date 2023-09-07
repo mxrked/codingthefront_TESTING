@@ -194,6 +194,29 @@ export default function App({ Component, pageProps }) {
     });
   }, []);
 
+  //! Changing text elements cursor
+  useEffect(() => {
+    const ELEMENT_TYPES = [
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "p",
+      "span",
+      "li",
+    ];
+
+    ELEMENT_TYPES.forEach((eT) => {
+      const ELEMENTS = document.getElementsByTagName(eT);
+
+      for (let i = 0; i < ELEMENTS.length; i++) {
+        ELEMENTS[i].style.cursor = "default";
+      }
+    });
+  }, []);
+
   //! Showing Page after some time
   useEffect(() => {
     setTimeout(() => {
