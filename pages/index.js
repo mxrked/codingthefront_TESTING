@@ -12,6 +12,7 @@ import { PageHead } from "@/assets/components/global/All/PageHead";
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
+import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -45,7 +46,9 @@ export default function Home({ index_projects_data }) {
       <MobileNav disableLink="/" />
       <MobileNavMenu disableLink="/" />
 
-      <main id="PAGE_CNT"></main>
+      <main id="PAGE_CNT">
+        <IndexTop />
+      </main>
     </div>
   );
 }
