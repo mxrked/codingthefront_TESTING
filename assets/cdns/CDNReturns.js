@@ -36,6 +36,21 @@ function CDNIconReturn(iconSub, iconSubFile, fileExt) {
   return iconSrc;
 }
 
+function CDNVideoReturn(videoSub, videoSubFile, fileExt) {
+  let videoSrc;
+
+  if (videoSub) {
+    if (videoSubFile) {
+      if (fileExt) {
+        videoSrc =
+          SERVER + "videos/" + videoSub + "/" + videoSubFile + "." + fileExt;
+      }
+    }
+  }
+
+  return videoSrc;
+}
+
 function CDNImgReturn(imgSub, imgSubFile, fileExt) {
   let imgSrc;
 
@@ -65,4 +80,10 @@ function CDNFileReturn(fileSub, fileSubFile, fileExt) {
   return fileSrc;
 }
 
-export { CDNBGReturn, CDNIconReturn, CDNImgReturn, CDNFileReturn };
+export {
+  CDNBGReturn,
+  CDNIconReturn,
+  CDNVideoReturn,
+  CDNImgReturn,
+  CDNFileReturn,
+};
