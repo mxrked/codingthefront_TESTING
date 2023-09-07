@@ -44,21 +44,28 @@
 }
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .logo a {
   text-decoration: none;
+  cursor: pointer !important;
 }
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .logo .icon {
   font-size: clamp(1.44rem, 2vw + 1.25rem, 2.15rem);
   margin-top: -6px;
   margin-right: 10px;
   color: white;
+  cursor: pointer !important;
 }
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .logo span {
   font-size: clamp(1.44rem, 2vw + 1.25rem, 2.15rem);
   margin-top: 0px;
   font-family: "FG Bold";
   color: white;
+  cursor: pointer !important;
 }
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .deactive {
   opacity: 0.6;
+}
+.desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .deactive .icon,
+.desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .deactive span {
+  cursor: default !important;
 }
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_R {
   justify-content: flex-end;
@@ -79,6 +86,9 @@
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_R .desktop_nav_inner_side_cnt ul li a {
   text-decoration: none;
   color: white;
+}
+.desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_R .desktop_nav_inner_side_cnt ul li a span {
+  cursor: pointer !important;
 }
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_R .desktop_nav_inner_side_cnt ul li a:hover {
   color: #14cce9;
@@ -128,15 +138,21 @@
   margin-top: -6px;
   margin-right: 10px;
   color: white;
+  cursor: pointer !important;
 }
 .mobile_nav .mobile_nav_inner .mobile_nav_inner_box .mobile_nav_inner_row .mobile_nav_L .mobile_nav_inner_side_cnt .logo span {
   font-size: 33px;
   margin-top: 0px;
   font-family: "FG Bold";
   color: white;
+  cursor: pointer !important;
 }
 .mobile_nav .mobile_nav_inner .mobile_nav_inner_box .mobile_nav_inner_row .mobile_nav_L .mobile_nav_inner_side_cnt .deactive {
   opacity: 0.6;
+}
+.mobile_nav .mobile_nav_inner .mobile_nav_inner_box .mobile_nav_inner_row .mobile_nav_L .mobile_nav_inner_side_cnt .deactive .icon,
+.mobile_nav .mobile_nav_inner .mobile_nav_inner_box .mobile_nav_inner_row .mobile_nav_L .mobile_nav_inner_side_cnt .deactive span {
+  cursor: default !important;
 }
 .mobile_nav .mobile_nav_inner .mobile_nav_inner_box .mobile_nav_inner_row .mobile_nav_R {
   max-width: 50%;
@@ -233,12 +249,22 @@
   text-decoration: none;
   color: #080a0c;
   display: inline-block;
+  cursor: pointer !important;
+}
+.mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul li a span {
+  cursor: pointer !important;
 }
 .mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul li a:hover {
   color: #14cce9;
 }
 .mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul .deactive {
   color: #1092a7;
+}
+.mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul .deactive a {
+  cursor: default !important;
+}
+.mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul .deactive a span {
+  cursor: default !important;
 }
 
 @media all and (max-width: 991px) {

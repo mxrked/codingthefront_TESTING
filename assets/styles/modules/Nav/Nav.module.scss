@@ -53,6 +53,7 @@
 
               a {
                 text-decoration: none;
+                cursor: pointer !important;
               }
 
               .icon {
@@ -60,6 +61,7 @@
                 margin-top: -6px;
                 margin-right: 10px;
                 color: white;
+                cursor: pointer !important;
               }
 
               span {
@@ -67,11 +69,17 @@
                 margin-top: 0px;
                 font-family: "FG Bold";
                 color: white;
+                cursor: pointer !important;
               }
             }
 
             .deactive {
               opacity: 0.6;
+
+              .icon,
+              span {
+                cursor: default !important;
+              }
             }
           }
         }
@@ -94,6 +102,10 @@
                 a {
                   text-decoration: none;
                   color: white;
+
+                  span {
+                    cursor: pointer !important;
+                  }
 
                   &:hover {
                     color: $BrightTurquoise;
@@ -153,6 +165,7 @@
                 margin-top: -6px;
                 margin-right: 10px;
                 color: white;
+                cursor: pointer !important;
               }
 
               span {
@@ -160,11 +173,17 @@
                 margin-top: 0px;
                 font-family: "FG Bold";
                 color: white;
+                cursor: pointer !important;
               }
             }
 
             .deactive {
               opacity: 0.6;
+
+              .icon,
+              span {
+                cursor: default !important;
+              }
             }
           }
         }
@@ -273,6 +292,11 @@
               text-decoration: none;
               color: $Bunker;
               display: inline-block;
+              cursor: pointer !important;
+
+              span {
+                cursor: pointer !important;
+              }
 
               &:hover {
                 color: $BrightTurquoise;
@@ -282,6 +306,14 @@
 
           .deactive {
             color: $BlueChill;
+
+            a {
+              cursor: default !important;
+
+              span {
+                cursor: default !important;
+              }
+            }
           }
         }
       }

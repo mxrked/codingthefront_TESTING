@@ -13,11 +13,14 @@
 
 .selected::-moz-selection {
   color: #eeeeee;
+  background-color: #1092a7;
 }
 
 .selected::selection {
   color: #eeeeee;
+  background-color: #1092a7;
 }
 .selected::-moz-selection {
   color: #eeeeee;
+  background-color: #1092a7;
 }/*# sourceMappingURL=global_classnames.css.map */
