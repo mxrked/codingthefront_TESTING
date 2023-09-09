@@ -1,18 +1,22 @@
 @font-face {
   font-family: "Consola Bold";
   src: url("../../../fonts/Consola-Bold.TTF");
+  font-display: swap;
 }
 @font-face {
   font-family: "Consola Regular";
   src: url("../../../fonts/Consola-Regular.TTF");
+  font-display: swap;
 }
 @font-face {
   font-family: "FG Bold";
   src: url("../../../fonts/FoundersGrotesk-Bold.otf");
+  font-display: swap;
 }
 @font-face {
   font-family: "FG Semibold";
   src: url("../../../fonts/FoundersGrotesk-Semibold.otf");
+  font-display: swap;
 }
 .desktop_nav {
   position: absolute;
@@ -56,7 +60,7 @@
 .desktop_nav .desktop_nav_inner .desktop_nav_inner_box .desktop_nav_inner_row .desktop_nav_L .desktop_nav_inner_side_cnt .logo span {
   font-size: clamp(1.44rem, 2vw + 1.25rem, 2.15rem);
   margin-top: 0px;
-  font-family: "FG Bold";
+  font-family: "FG Bold", sans-serif;
   color: white;
   cursor: pointer !important;
 }
@@ -79,7 +83,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Consola Bold";
+  font-family: "Consola Bold", sans-serif;
   font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   text-transform: uppercase;
 }
@@ -143,7 +147,7 @@
 .mobile_nav .mobile_nav_inner .mobile_nav_inner_box .mobile_nav_inner_row .mobile_nav_L .mobile_nav_inner_side_cnt .logo span {
   font-size: 33px;
   margin-top: 0px;
-  font-family: "FG Bold";
+  font-family: "FG Bold", sans-serif;
   color: white;
   cursor: pointer !important;
 }
@@ -239,7 +243,7 @@
 }
 .mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul {
   font-size: 29px;
-  font-family: "Consola Bold";
+  font-family: "Consola Bold", sans-serif;
   text-transform: uppercase;
 }
 .mobile_nav_menu .mobile_nav_menu_main .mobile_nav_menu_main_inner .mobile_nav_menu_main_inner_cnt ul li {

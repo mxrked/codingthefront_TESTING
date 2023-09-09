@@ -1,23 +1,28 @@
 @font-face {
   font-family: "Consola Bold";
   src: url("../../../fonts/Consola-Bold.TTF");
+  font-display: swap;
 }
 @font-face {
   font-family: "Consola Regular";
   src: url("../../../fonts/Consola-Regular.TTF");
+  font-display: swap;
 }
 @font-face {
   font-family: "FG Bold";
   src: url("../../../fonts/FoundersGrotesk-Bold.otf");
+  font-display: swap;
 }
 @font-face {
   font-family: "FG Semibold";
   src: url("../../../fonts/FoundersGrotesk-Semibold.otf");
+  font-display: swap;
 }
 .index_top {
   height: 1100px;
   width: 100%;
   position: relative;
+  white-space: pre-wrap;
 }
 .index_top video {
   position: absolute;
@@ -45,19 +50,20 @@
   background-color: rgba(4, 23, 40, 0.85);
 }
 .index_top .overlay .overlay_cnt .top_text {
-  font-family: "FG Bold";
+  font-family: "FG Bold", sans-serif;
   font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
   color: white;
 }
 .index_top .overlay .overlay_cnt h1 {
-  font-family: "FG Bold";
+  font-family: "FG Bold", sans-serif;
   font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
   color: white;
 }
 .index_top .overlay .overlay_cnt p {
-  font-family: "Consola Regular";
+  font-family: "Consola Regular", sans-serif;
   font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   color: white;
+  line-height: 35px;
 }
 .index_top .overlay .overlay_cnt ul {
   display: flex;
@@ -73,7 +79,7 @@
   width: 100%;
 }
 .index_top .overlay .overlay_cnt ul li a {
-  font-family: "Consola Bold";
+  font-family: "Consola Bold", sans-serif;
   height: 50px;
   color: white;
   border-radius: 5px;
@@ -114,4 +120,107 @@
 }
 .index_top .overlay .overlay_cnt ul li .projects_link:hover {
   background-color: #1092a7;
+}
+
+@media all and (max-width: 1995px) {
+  .index_top {
+    height: 970px;
+  }
+  .index_top .overlay .overlay_cnt {
+    max-width: 1000px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .index_top .overlay .overlay_cnt .top_text {
+    font-size: clamp(3rem, 4vw, 4rem);
+  }
+  .index_top .overlay .overlay_cnt h1 {
+    font-size: clamp(5rem, 6vw, 6rem);
+  }
+  .index_top .overlay .overlay_cnt p {
+    max-width: 800px;
+    font-size: 23px;
+  }
+  .index_top .overlay .overlay_cnt ul {
+    max-width: 340px;
+  }
+  .index_top .overlay .overlay_cnt ul li a {
+    height: 50px;
+    font-size: 23px;
+  }
+  .index_top .overlay .overlay_cnt ul li .info_link {
+    max-width: 130px;
+  }
+  .index_top .overlay .overlay_cnt ul li .projects_link {
+    max-width: 170px;
+  }
+}
+@media all and (max-width: 991px) {
+  .index_top {
+    height: 770px;
+  }
+  .index_top .overlay .overlay_cnt {
+    max-width: 650px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .index_top .overlay .overlay_cnt .top_text {
+    font-size: clamp(2rem, 3vw, 3rem);
+  }
+  .index_top .overlay .overlay_cnt h1 {
+    font-size: clamp(4rem, 5vw, 5rem);
+    line-height: 60px;
+  }
+  .index_top .overlay .overlay_cnt p {
+    max-width: 800px;
+    font-size: 21px;
+  }
+  .index_top .overlay .overlay_cnt ul {
+    max-width: 310px;
+  }
+  .index_top .overlay .overlay_cnt ul li a {
+    height: 45px;
+    font-size: 21px;
+  }
+  .index_top .overlay .overlay_cnt ul li .info_link {
+    max-width: 120px;
+  }
+  .index_top .overlay .overlay_cnt ul li .projects_link {
+    max-width: 180px;
+  }
+}
+@media all and (max-width: 768px) {
+  .index_top {
+    height: 640px;
+  }
+  .index_top .overlay .overlay_cnt {
+    max-width: 650px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .index_top .overlay .overlay_cnt .top_text {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+  }
+  .index_top .overlay .overlay_cnt h1 {
+    font-size: clamp(3rem, 3vw, 3rem);
+    line-height: 50px;
+    margin-top: 5px;
+  }
+  .index_top .overlay .overlay_cnt p {
+    max-width: 450px;
+    font-size: 19px;
+  }
+  .index_top .overlay .overlay_cnt ul {
+    max-width: 310px;
+  }
+  .index_top .overlay .overlay_cnt ul li a {
+    height: 45px;
+    font-size: 21px;
+  }
+  .index_top .overlay .overlay_cnt ul li .info_link {
+    max-width: 120px;
+  }
+  .index_top .overlay .overlay_cnt ul li .projects_link {
+    max-width: 180px;
+  }
 }/*# sourceMappingURL=Index.module.css.map */

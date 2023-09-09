@@ -7,18 +7,22 @@
 @font-face {
   font-family: "Consola Bold";
   src: url("../../../fonts/Consola-Bold.TTF");
+  font-display: swap;
 }
 @font-face {
   font-family: "Consola Regular";
   src: url("../../../fonts/Consola-Regular.TTF");
+  font-display: swap;
 }
 @font-face {
   font-family: "FG Bold";
   src: url("../../../fonts/FoundersGrotesk-Bold.otf");
+  font-display: swap;
 }
 @font-face {
   font-family: "FG Semibold";
   src: url("../../../fonts/FoundersGrotesk-Semibold.otf");
+  font-display: swap;
 }
 
 // Desktop
@@ -67,7 +71,7 @@
               span {
                 font-size: $Logo;
                 margin-top: 0px;
-                font-family: "FG Bold";
+                font-family: "FG Bold", sans-serif;
                 color: white;
                 cursor: pointer !important;
               }
@@ -94,7 +98,7 @@
             ul {
               width: 100%;
               @include displayElement(flex, space-between, center);
-              font-family: "Consola Bold";
+              font-family: "Consola Bold", sans-serif;
               font-size: $Text;
               text-transform: uppercase;
 
@@ -171,7 +175,7 @@
               span {
                 font-size: clamp(33px, 33px, 33px);
                 margin-top: 0px;
-                font-family: "FG Bold";
+                font-family: "FG Bold", sans-serif;
                 color: white;
                 cursor: pointer !important;
               }
@@ -282,7 +286,7 @@
 
         ul {
           font-size: clamp(29px, 29px, 29px);
-          font-family: "Consola Bold";
+          font-family: "Consola Bold", sans-serif;
           text-transform: uppercase;
 
           li {
