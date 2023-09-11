@@ -8,7 +8,7 @@ import DeclareStorageVariable from "../../data/storage/DeclareStorageVariable";
 import RemoveStorageVariable from "../../data/storage/RemoveStorageVariable";
 import CloseMobileNav from "../closers/CloseMobileNav";
 
-function TriggerExitAnimations() {
+function TriggerExitAnimations(router) {
   document.querySelectorAll("a").forEach((link) => {
     //! Regular Links
     if (!link.classList.contains("nav-link")) {
