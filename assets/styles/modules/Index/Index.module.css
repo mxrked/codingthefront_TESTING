@@ -208,8 +208,7 @@
 }
 .index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text .heading {
   font-family: "FG Bold";
-  font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
-  text-transform: uppercase;
+  font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
 }
 .index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text .heading br {
   display: none;

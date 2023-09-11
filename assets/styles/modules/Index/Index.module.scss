@@ -236,8 +236,8 @@
             .index_about_inner_side_cnt_text {
               .heading {
                 font-family: "FG Bold";
-                font-size: $Heading;
-                text-transform: uppercase;
+                font-size: $MajorHeading;
+                // text-transform: uppercase;
 
                 br {
                   display: none;
