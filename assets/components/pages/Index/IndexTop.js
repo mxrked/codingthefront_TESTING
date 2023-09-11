@@ -38,7 +38,14 @@ export const IndexTop = () => {
 
   return (
     <section id="indexTop" className={`${styles.index_top} overrides_IndexTop`}>
-      <video poster={POSTER} src={INDEX_TOP_VIDEO} muted loop autoPlay></video>
+      <video
+        id="videoBg"
+        poster={POSTER}
+        src={INDEX_TOP_VIDEO}
+        muted
+        loop
+        autoPlay
+      ></video>
 
       <div className={`${styles.overlay} half-second`}>
         <motion.div

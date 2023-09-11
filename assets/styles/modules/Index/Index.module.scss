@@ -152,8 +152,10 @@
   white-space: pre-wrap;
 
   .index_about_inner {
-    max-width: 1500px;
+    max-width: 1600px;
     @include quickCenter("relative");
+    padding-left: 50px;
+    padding-right: 50px;
 
     .index_about_inner_box {
       padding: 0;

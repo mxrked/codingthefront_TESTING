@@ -18,7 +18,7 @@ export default function NotFound() {
 
   // Triggering exit animations
   useEffect(() => {
-    TriggerExitAnimations();
+    TriggerExitAnimations(router);
   }, []);
 
   return (

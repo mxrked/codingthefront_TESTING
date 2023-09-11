@@ -14,10 +14,10 @@ import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 import { IndexAbout } from "@/assets/components/pages/Index/IndexAbout";
+import { Back2Top } from "@/assets/components/global/All/Back2Top";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
-
 export const getStaticProps = async () => {
   const INDEX_PROJECTS_RES = await fetch(
     "https://raw.githubusercontent.com/mxrked/codingthefront_2024_CDN/main/files/json/INDEX_PROJECTS.json"
@@ -37,7 +37,7 @@ export default function Home({ index_projects_data }) {
 
   // Triggering exit animations
   useEffect(() => {
-    TriggerExitAnimations();
+    TriggerExitAnimations(router);
   }, []);
 
   return (
@@ -46,6 +46,8 @@ export default function Home({ index_projects_data }) {
       <DesktopNav disableLink="/" />
       <MobileNav disableLink="/" />
       <MobileNavMenu disableLink="/" />
+
+      <Back2Top />
 
       <main id="PAGE_CNT">
         <IndexTop />

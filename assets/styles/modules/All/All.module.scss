@@ -1,0 +1,87 @@
+// Imports
+@import "../../tools/mixins/mixins.scss";
+@import "../../tools/themes/themes.scss";
+@import "../../tools/variables/variable.scss";
+
+// Font Imports
+@font-face {
+  font-family: "Consola Bold";
+  src: url("../../../fonts/Consola-Bold.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Consola Regular";
+  src: url("../../../fonts/Consola-Regular.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "FG Bold";
+  src: url("../../../fonts/FoundersGrotesk-Bold.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "FG Semibold";
+  src: url("../../../fonts/FoundersGrotesk-Semibold.otf");
+  font-display: swap;
+}
+
+// Desktop
+.back_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  @include displayElement(flex, center, center);
+  background-color: rgb(231, 231, 231);
+  font-size: $Text;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.093);
+  color: $BlueChill;
+
+  &:hover {
+    background-color: $BlueChill;
+    box-shadow: none;
+    color: white;
+  }
+}
+
+// Responsive
+@media all and (max-width: 1995px) {
+}
+
+@media all and (max-width: 991px) {
+}
+
+@media (min-width: 992px) {
+}
+
+// Desktop Window (Smallest)
+@media all and (max-width: 768px) {
+}
+
+// Smaller Devices (Phones)
+@media all and (max-width: 419px) {
+}
+
+// Pixel 2 XL
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+// Ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+// iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+// Laptops
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

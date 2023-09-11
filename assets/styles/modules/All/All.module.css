@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Consola Bold";
+  src: url("../../../fonts/Consola-Bold.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Consola Regular";
+  src: url("../../../fonts/Consola-Regular.TTF");
+  font-display: swap;
+}
+@font-face {
+  font-family: "FG Bold";
+  src: url("../../../fonts/FoundersGrotesk-Bold.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "FG Semibold";
+  src: url("../../../fonts/FoundersGrotesk-Semibold.otf");
+  font-display: swap;
+}
+.back_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.093);
+  color: #1092a7;
+}
+.back_to_top:hover {
+  background-color: #1092a7;
+  box-shadow: none;
+  color: white;
+}/*# sourceMappingURL=All.module.css.map */
