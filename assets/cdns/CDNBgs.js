@@ -8,5 +8,10 @@ import { CDNBGReturn } from "./CDNReturns";
 
 // const BG_GRADIENT = CDNBGReturn("all", "bg-gradient", "webp");
 
+const ABOUT_BG = CDNBGReturn("index", "about-bg", "webp");
+const CONTACT_BG = CDNBGReturn("index", "contact-bg", "webp");
+const WAVE = CDNBGReturn("waves", "wave", "svg");
+
 // export { BG_GRADIENT };
-export {};
+export { WAVE };
+export { ABOUT_BG, CONTACT_BG };
