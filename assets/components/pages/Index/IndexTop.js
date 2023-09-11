@@ -28,6 +28,14 @@ export const IndexTop = () => {
     TriggerInViewMotion(CONTROLS, INVIEW);
   }, [CONTROLS, INVIEW]);
 
+  // Force playing the bg video
+  useEffect(() => {
+    const DELAY_IN_SECONDS = 5;
+    setTimeout(() => {
+      document.getElementById("videoBg").play();
+    }, DELAY_IN_SECONDS * 1000);
+  }, []);
+
   return (
     <section id="indexTop" className={`${styles.index_top} overrides_IndexTop`}>
       <video poster={POSTER} src={INDEX_TOP_VIDEO} muted loop autoPlay></video>
