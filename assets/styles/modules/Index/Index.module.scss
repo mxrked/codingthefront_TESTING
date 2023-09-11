@@ -74,6 +74,7 @@
         font-size: $Text;
         color: white;
         line-height: 35px;
+        @include quickCenter("relative");
       }
 
       ul {
@@ -250,6 +251,7 @@
     .overlay {
       .overlay_cnt {
         max-width: 650px;
+        padding-top: 20px;
         padding-left: 25px;
         padding-right: 25px;
 
@@ -259,30 +261,36 @@
 
         h1 {
           font-size: clamp(3rem, 3vw, 3rem);
-          line-height: 50px;
+          line-height: 45px;
           margin-top: 5px;
         }
 
         p {
-          max-width: 450px;
-          font-size: clamp(17px, 19px, 19px);
+          max-width: 82%;
+          font-size: clamp(17px, 18px, 18px);
+          line-height: 25px;
+          margin-top: 12px;
         }
 
         ul {
           max-width: 310px;
+          display: block;
+          text-align: center;
 
           li {
             a {
-              height: 45px;
-              font-size: clamp(19px, 21px, 21px);
+              height: 40px;
+              font-size: clamp(17px, 19px, 19px);
+              @include quickCenter("relative");
             }
 
             .info_link {
-              max-width: 120px;
+              max-width: 110px;
+              margin-bottom: 15px;
             }
 
             .projects_link {
-              max-width: 180px;
+              max-width: 145px;
             }
           }
         }
@@ -293,26 +301,396 @@
 
 // Smaller Devices (Phones)
 @media all and (max-width: 419px) {
+  .index_top {
+    height: 580px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 650px;
+        padding-top: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(1.3rem, 1.9vw, 1.9rem);
+        }
+
+        h1 {
+          font-size: clamp(2.4rem, 2.9vw, 2.9rem);
+          line-height: 40px;
+          margin-top: 5px;
+        }
+
+        p {
+          max-width: 82%;
+          font-size: clamp(16px, 17px, 17px);
+          line-height: 25px;
+          margin-top: 12px;
+        }
+
+        ul {
+          max-width: 310px;
+          display: block;
+          text-align: center;
+
+          li {
+            a {
+              height: 35px;
+              font-size: clamp(15px, 16px, 16px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 100px;
+              margin-bottom: 15px;
+            }
+
+            .projects_link {
+              max-width: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Pixel 2 XL
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .index_top {
+    height: 370px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 650px;
+        padding-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+        }
+
+        h1 {
+          font-size: clamp(2.1rem, 2.5vw, 2.5rem);
+          line-height: 40px;
+          margin-top: 5px;
+        }
+
+        p {
+          max-width: 82%;
+          font-size: clamp(15px, 16px, 16px);
+          line-height: 25px;
+          margin-top: 12px;
+        }
+
+        ul {
+          max-width: 270px;
+          display: flex;
+          text-align: center;
+          margin-top: 25px;
+
+          li {
+            a {
+              height: 35px;
+              font-size: clamp(15px, 16px, 16px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 100px;
+              margin-bottom: 0;
+            }
+
+            .projects_link {
+              max-width: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Ipad
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .index_top {
+    height: 610px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 650px;
+        padding-top: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(2rem, 2.8vw, 2.8rem);
+        }
+
+        h1 {
+          font-size: clamp(3.2rem, 4vw, 4rem);
+          line-height: 40px;
+          margin-top: 5px;
+        }
+
+        p {
+          max-width: 82%;
+          font-size: clamp(17px, 18px, 18px);
+          line-height: 25px;
+          margin-top: 12px;
+        }
+
+        ul {
+          max-width: 320px;
+          display: flex;
+          text-align: center;
+          margin-top: 35px;
+
+          li {
+            a {
+              height: 45px;
+              font-size: clamp(18px, 19px, 19px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 110px;
+              margin-bottom: 0;
+            }
+
+            .projects_link {
+              max-width: 147px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .index_top {
+    height: 430px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 650px;
+        padding-top: 55px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(1.6rem, 1.7vw, 1.7rem);
+        }
+
+        h1 {
+          font-size: clamp(2.7rem, 3.4vw, 3.4rem);
+          line-height: 40px;
+          margin-top: 5px;
+        }
+
+        p {
+          max-width: 82%;
+          font-size: clamp(16px, 17px, 17px);
+          line-height: 25px;
+          margin-top: 12px;
+        }
+
+        ul {
+          max-width: 300px;
+          display: flex;
+          text-align: center;
+          margin-top: 35px;
+
+          li {
+            a {
+              height: 40px;
+              font-size: clamp(16px, 17px, 17px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 100px;
+              margin-bottom: 0;
+            }
+
+            .projects_link {
+              max-width: 132px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .index_top {
+    height: 750px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 850px;
+        padding-top: 55px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(2rem, 3vw, 3rem);
+        }
+
+        h1 {
+          font-size: clamp(4rem, 5vw, 5rem);
+          line-height: 40px;
+          margin-top: 25px;
+        }
+
+        p {
+          max-width: 79%;
+          font-size: clamp(19px, 21px, 21px);
+          line-height: 35px;
+          margin-top: 12px;
+        }
+
+        ul {
+          max-width: 330px;
+          display: flex;
+          text-align: center;
+          margin-top: 35px;
+
+          li {
+            a {
+              height: 45px;
+              font-size: clamp(17px, 18px, 18px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 110px;
+              margin-bottom: 0;
+            }
+
+            .projects_link {
+              max-width: 139px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .index_top {
+    height: 640px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 850px;
+        padding-top: 65px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(1.7rem, 2.8vw, 2.8rem);
+        }
+
+        h1 {
+          font-size: clamp(3.7rem, 4.9vw, 4.9rem);
+          line-height: 40px;
+          margin-top: 15px;
+        }
+
+        p {
+          max-width: 72%;
+          font-size: clamp(17px, 19px, 19px);
+          line-height: 35px;
+          margin-top: 12px;
+        }
+
+        ul {
+          max-width: 330px;
+          display: flex;
+          text-align: center;
+          margin-top: 35px;
+
+          li {
+            a {
+              height: 45px;
+              font-size: clamp(17px, 18px, 18px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 110px;
+              margin-bottom: 0;
+            }
+
+            .projects_link {
+              max-width: 139px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Laptops
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .index_top {
+    height: 750px;
+
+    .overlay {
+      .overlay_cnt {
+        max-width: 850px;
+        padding-top: 65px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .top_text {
+          font-size: clamp(1.9rem, 2.9vw, 2.9rem);
+        }
+
+        h1 {
+          font-size: clamp(3.8rem, 5vw, 5rem);
+          line-height: 40px;
+          margin-top: 15px;
+        }
+
+        p {
+          max-width: 76%;
+          font-size: clamp(19px, 21px, 21px);
+          line-height: 35px;
+          margin-top: 20px;
+        }
+
+        ul {
+          max-width: 330px;
+          display: flex;
+          text-align: center;
+          margin-top: 35px;
+
+          li {
+            a {
+              height: 50px;
+              font-size: clamp(18px, 19px, 19px);
+              @include quickCenter("relative");
+            }
+
+            .info_link {
+              max-width: 120px;
+              margin-bottom: 0;
+            }
+
+            .projects_link {
+              max-width: 149px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
