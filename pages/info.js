@@ -12,6 +12,7 @@ import { PageHead } from "@/assets/components/global/All/PageHead";
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
+import { Back2Top } from "@/assets/components/global/All/Back2Top";
 
 // Style Imports
 import "../assets/styles/modules/Info/Info.module.css";
@@ -21,7 +22,7 @@ export default function Info() {
 
   // Triggering exit animations
   useEffect(() => {
-    TriggerExitAnimations();
+    TriggerExitAnimations(router);
   }, []);
 
   return (
@@ -30,6 +31,8 @@ export default function Info() {
       <DesktopNav disableLink="/info" />
       <MobileNav disableLink="/info" />
       <MobileNavMenu disableLink="/info" />
+
+      <Back2Top />
 
       <main id="PAGE_CNT"></main>
     </div>

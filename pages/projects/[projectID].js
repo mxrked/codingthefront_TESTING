@@ -12,6 +12,7 @@ import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerEx
 import { DesktopNav } from "@/assets/components/global/Nav/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Nav/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Nav/Mobile/MobileNavMenu";
+import { Back2Top } from "@/assets/components/global/All/Back2Top";
 
 // Style Imports
 import "../../assets/styles/modules/Projects/Projects.module.css";
@@ -96,7 +97,7 @@ export default function Projects({ PROJECT }) {
 
   // Triggering exit animations
   useEffect(() => {
-    TriggerExitAnimations();
+    TriggerExitAnimations(router);
   }, []);
 
   return (
@@ -104,6 +105,8 @@ export default function Projects({ PROJECT }) {
       <DesktopNav disableLink="/projects" />
       <MobileNav disableLink="/projects" />
       <MobileNavMenu disableLink="/projects" />
+
+      <Back2Top />
 
       <main id="PAGE_CNT"></main>
     </div>
