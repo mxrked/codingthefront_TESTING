@@ -14,6 +14,7 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 
 import { FADE_IN } from "@/assets/animations/FADES";
 import { INDEX_TOP_VIDEO } from "@/assets/cdns/CDNVideos";
+import { POSTER } from "@/assets/cdns/CDNImgs";
 
 import styles from "../../../styles/modules/Index/Index.module.css";
 
@@ -29,7 +30,7 @@ export const IndexTop = () => {
 
   return (
     <section id="indexTop" className={`${styles.index_top} overrides_IndexTop`}>
-      <video src={INDEX_TOP_VIDEO} muted loop autoPlay={true}></video>
+      <video poster={POSTER} src={INDEX_TOP_VIDEO} muted loop autoPlay></video>
 
       <div className={`${styles.overlay} half-second`}>
         <motion.div
