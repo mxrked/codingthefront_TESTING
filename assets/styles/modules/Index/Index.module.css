@@ -124,6 +124,164 @@
   background-color: #1092a7;
 }
 
+.index_about {
+  overflow: hidden;
+  margin-top: 220px;
+  margin-bottom: 220px;
+  white-space: pre-wrap;
+}
+.index_about .index_about_inner {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index_about .index_about_inner .index_about_inner_box {
+  padding: 0;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_inner_side {
+  padding: 0;
+  height: 800px;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_inner_side .index_about_inner_side_cnt {
+  height: 100%;
+  max-height: 90%;
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L {
+  justify-content: flex-start;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L .index_about_inner_side_cnt {
+  margin-left: 0;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L .index_about_inner_side_cnt .bg_holder {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L .index_about_inner_side_cnt .bg_holder .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L .index_about_inner_side_cnt .bg_holder .wave {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  bottom: 0;
+  left: 0;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L .index_about_inner_side_cnt .bg_holder .wave .wave_bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 55;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_L .index_about_inner_side_cnt .bg_holder .darken {
+  background-color: rgba(4, 23, 40, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R {
+  justify-content: flex-end;
+  text-align: right;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt {
+  margin-right: 0;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text .heading {
+  font-family: "FG Bold";
+  font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+  text-transform: uppercase;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text .heading br {
+  display: none;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text .heading .blue_text {
+  color: #1092a7;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text p {
+  font-family: "Consola Regular";
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 460px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: 0;
+  margin-top: 45px;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li a {
+  font-family: "Consola Bold", sans-serif;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: none;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li a:hover::after {
+  width: 120%;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.4s ease-in-out;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li .contact_link {
+  background-color: #14cce9;
+  max-width: 245px;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li .contact_link:hover {
+  background-color: #1092a7;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li .info_link {
+  background-color: #14cce9;
+  max-width: 170px;
+}
+.index_about .index_about_inner .index_about_inner_box .index_about_inner_row .index_about_R .index_about_inner_side_cnt .index_about_inner_side_cnt_text ul li .info_link:hover {
+  background-color: #1092a7;
+}
+
 @media all and (max-width: 1995px) {
   .index_top {
     height: 970px;
