@@ -14,7 +14,12 @@ import { ABOUT_BG, WAVE } from "@/assets/cdns/CDNBgs";
 
 import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
 
-import { FADE_LEFT, FADE_RIGHT, FADE_UP } from "@/assets/animations/FADES";
+import {
+  FADE_IN,
+  FADE_LEFT,
+  FADE_RIGHT,
+  FADE_UP,
+} from "@/assets/animations/FADES";
 
 import styles from "../../../styles/modules/Index/Index.module.css";
 
@@ -33,7 +38,13 @@ export const IndexAbout = () => {
       id="indexAbout"
       className={`${styles.index_about} overrides_IndexAbout`}
     >
-      <div className={`${styles.index_about_inner}`}>
+      <motion.div
+        ref={REF}
+        initial="hidden"
+        animate={CONTROLS}
+        variants={FADE_IN}
+        className={`${styles.index_about_inner} fm-motion fade-in fade-in-fix full-second`}
+      >
         <div className={`${styles.index_about_inner_box} container-fluid`}>
           <div className={`${styles.index_about_inner_row} row`}>
             <div
@@ -114,7 +125,7 @@ export const IndexAbout = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
