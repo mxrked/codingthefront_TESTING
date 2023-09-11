@@ -16,6 +16,8 @@ import { CDNImgReturn } from "./CDNReturns";
 //   "json"
 // );
 
+const POSTER = CDNImgReturn("posters", "poster-1", "webp");
+
 const ACCOUNT_GUARD_IMG = CDNImgReturn("projects", "account-guard", "webp");
 const A_FRESH_PLACE_IMG = CDNImgReturn(
   "projects",
@@ -68,6 +70,8 @@ const FIBERCOMPANY_IMG = CDNImgReturn(
 //   IMG_LOTTIE_REACHING_OUT,
 //   IMG_LOTTIE_WEB_DEVELOPER,
 // };
+
+export { POSTER };
 
 export {
   ACCOUNT_GUARD_IMG,
