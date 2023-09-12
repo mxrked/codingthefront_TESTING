@@ -14,7 +14,7 @@ module.exports = {
 
   //! This added clean urls and eliminates the .html extension aswell as linking
   //! CSS and JS with the trailingSlash
-  assetPrefix: isProd ? "https://codingthefront.com/" : "",
+  assetPrefix: isProd ? "https://nimble-syrniki-a2cc27.netlify.app/" : "",
   // assetPrefix: () => {
   //   if (isProd) {
   //     if (process.env.DOMAIN === "codingthefront.com") {
